@@ -7,7 +7,7 @@
  "standard": 1,
  "header_icon": "house",
  "creation": "2026-11-13 20:00:00.000000",
- "modified": "2026-11-13 20:00:00.000000",
+ "modified": "2026-11-13 20:30:00.000000",
  "modified_by": "Administrator",
  "owner": "Administrator",
  "docstatus": 0,
@@ -15,7 +15,7 @@
  "items": [
   {
    "type": "Link",
-   "label": "Start",
+   "label": "Übersicht",
    "link_type": "Workspace",
    "link_to": "FranceTec",
    "icon": "house",
@@ -37,7 +37,8 @@
    "link_type": "DocType",
    "link_to": "Lead",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -45,7 +46,8 @@
    "link_type": "DocType",
    "link_to": "Opportunity",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -53,7 +55,8 @@
    "link_type": "DocType",
    "link_to": "Contact",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Section Break",
@@ -70,7 +73,8 @@
    "link_type": "DocType",
    "link_to": "Quotation",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -78,7 +82,8 @@
    "link_type": "DocType",
    "link_to": "Sales Order",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -86,7 +91,8 @@
    "link_type": "DocType",
    "link_to": "Delivery Note",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -94,7 +100,8 @@
    "link_type": "DocType",
    "link_to": "Sales Invoice",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -102,7 +109,8 @@
    "link_type": "DocType",
    "link_to": "Customer",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -110,7 +118,8 @@
    "link_type": "DocType",
    "link_to": "Price List",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -118,7 +127,8 @@
    "link_type": "DocType",
    "link_to": "Item Price",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Section Break",
@@ -135,7 +145,8 @@
    "link_type": "DocType",
    "link_to": "Purchase Order",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -143,7 +154,8 @@
    "link_type": "DocType",
    "link_to": "Purchase Receipt",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -151,7 +163,8 @@
    "link_type": "DocType",
    "link_to": "Purchase Invoice",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -159,7 +172,8 @@
    "link_type": "DocType",
    "link_to": "Supplier",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Section Break",
@@ -176,7 +190,8 @@
    "link_type": "DocType",
    "link_to": "Item",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -184,7 +199,8 @@
    "link_type": "DocType",
    "link_to": "Item Group",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -192,7 +208,8 @@
    "link_type": "DocType",
    "link_to": "Stock Entry",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -200,7 +217,8 @@
    "link_type": "Report",
    "link_to": "Stock Balance",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -208,7 +226,8 @@
    "link_type": "DocType",
    "link_to": "Stock Reconciliation",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -216,7 +235,8 @@
    "link_type": "DocType",
    "link_to": "Warehouse",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Section Break",
@@ -233,7 +253,8 @@
    "link_type": "DocType",
    "link_to": "Versandsendung",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -241,7 +262,8 @@
    "link_type": "DocType",
    "link_to": "DHL Abholauftrag",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -249,7 +271,8 @@
    "link_type": "DocType",
    "link_to": "Versandabsender",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -257,7 +280,8 @@
    "link_type": "DocType",
    "link_to": "Druckauftrag",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Section Break",
@@ -274,7 +298,8 @@
    "link_type": "DocType",
    "link_to": "Bank Reconciliation Tool Beta",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -282,7 +307,8 @@
    "link_type": "DocType",
    "link_to": "Bank Transaction",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -290,7 +316,8 @@
    "link_type": "DocType",
    "link_to": "Payment Entry",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -298,7 +325,8 @@
    "link_type": "DocType",
    "link_to": "Journal Entry",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -306,7 +334,8 @@
    "link_type": "DocType",
    "link_to": "Account",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -314,7 +343,8 @@
    "link_type": "Report",
    "link_to": "Accounts Receivable",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -322,7 +352,8 @@
    "link_type": "Report",
    "link_to": "Accounts Payable",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -330,7 +361,8 @@
    "link_type": "Report",
    "link_to": "Profit and Loss Statement",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -338,7 +370,8 @@
    "link_type": "DocType",
    "link_to": "DATEV Settings",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Section Break",
@@ -355,7 +388,8 @@
    "link_type": "DocType",
    "link_to": "Shopware Setting",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -363,7 +397,8 @@
    "link_type": "DocType",
    "link_to": "Ecommerce Integration Log",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -371,7 +406,8 @@
    "link_type": "DocType",
    "link_to": "WeClapp Sync Run",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -379,7 +415,8 @@
    "link_type": "DocType",
    "link_to": "Zahlungsdienst Konto",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -387,7 +424,8 @@
    "link_type": "DocType",
    "link_to": "E Invoice Import",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -395,7 +433,8 @@
    "link_type": "DocType",
    "link_to": "Webex Call Log",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -403,7 +442,8 @@
    "link_type": "DocType",
    "link_to": "SevDesk Sync Log",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Section Break",
@@ -420,7 +460,8 @@
    "link_type": "DocType",
    "link_to": "Company",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -428,7 +469,8 @@
    "link_type": "DocType",
    "link_to": "User",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -436,7 +478,8 @@
    "link_type": "DocType",
    "link_to": "Ecommerce Channel Branding",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -444,7 +487,8 @@
    "link_type": "DocType",
    "link_to": "Design Einstellungen",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   },
   {
    "type": "Link",
@@ -452,7 +496,8 @@
    "link_type": "DocType",
    "link_to": "Print Format",
    "child": 1,
-   "collapsible": 1
+   "collapsible": 1,
+   "is_default_module": 1
   }
  ]
 }
