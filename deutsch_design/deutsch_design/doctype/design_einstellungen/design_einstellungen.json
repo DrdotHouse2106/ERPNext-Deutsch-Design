@@ -1,0 +1,21 @@
+{
+ "doctype": "DocType",
+ "name": "Design Einstellungen",
+ "module": "Deutsch Design",
+ "issingle": 1,
+ "custom": 0,
+ "engine": "InnoDB",
+ "field_order": ["firmenfarbe", "benutzerfarben"],
+ "fields": [
+  {"fieldname": "firmenfarbe", "fieldtype": "Color", "label": "Firmenfarbe", "description": "Für Knöpfe, Hervorhebungen und die aktive Seitenleiste. Leer = Standard von ERPNext."},
+  {"fieldname": "benutzerfarben", "fieldtype": "Table", "label": "Eigene Farbe je Benutzer", "options": "Design Benutzerfarbe"}
+ ],
+ "permissions": [
+  {"role": "System Manager", "read": 1, "write": 1, "create": 1}
+ ],
+ "modified": "2026-11-13 20:00:00.000000",
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

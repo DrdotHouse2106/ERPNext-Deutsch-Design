@@ -3,7 +3,7 @@
 Eine Frappe-App für ERPNext v16:
 
 - **Vollständig deutsche Oberfläche.** ERPNext und Frappe haben rund 1.300 Texte ohne deutsche Übersetzung. Die App liefert sie fertig mit, ohne API-Schlüssel oder laufende Kosten.
-- **Frischeres Design** (geplant). Firmenfarbe für alle, eigene Farbe je Benutzer, farbige Kacheln und Kennzahlen.
+- **Farben.** Unter „Design Einstellungen“ eine Firmenfarbe für alle und auf Wunsch eine eigene Farbe je Benutzer. Sie färbt Knöpfe, Hervorhebungen und die aktive Seitenleiste.
 - **Startseite.** Wer in seinem Benutzer einen Standard-Arbeitsbereich einträgt, landet beim ersten Öffnen der Kachelseite (`/`, `/desk`, nach dem Login) direkt dort. Die Kachelseite bleibt über das Logo erreichbar.
 
 ## Übersetzungen
@@ -14,7 +14,7 @@ Die Texte stehen in `deutsch_design/translations/de.csv`. Sie füllen nur Lücke
 2. Was ERPNext oder eine andere App schon übersetzt, wird nicht angefasst.
 3. Nur Texte ohne deutsche Fassung kommen aus dieser App.
 
-Abgedeckt sind Frappe, ERPNext und ERPNext Germany (Stand Version 16).
+Abgedeckt sind Frappe, ERPNext und ERPNext Germany (Stand Version 16), dazu Texte, die nur in der Datenbank stehen und in keinem Übersetzungskatalog (Namen und Hinweise von Diagrammen, Kennzahlen, Seitenleisten-Einträgen). Diese erkennt `abgleich.py` nicht und lässt sie stehen.
 
 ### Pflege nach Updates
 
