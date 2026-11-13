@@ -4,7 +4,7 @@ Eine Frappe-App für ERPNext v16:
 
 - **Vollständig deutsche Oberfläche.** ERPNext und Frappe haben rund 1.300 Texte ohne deutsche Übersetzung. Die App liefert sie fertig mit, ohne API-Schlüssel oder laufende Kosten.
 - **Frischeres Design** (geplant). Firmenfarbe für alle, eigene Farbe je Benutzer, farbige Kacheln und Kennzahlen.
-- **Startseite** (geplant). Ein frei wählbarer Arbeitsbereich als Start nach dem Login, mit Seitenleiste.
+- **Startseite.** Wer in seinem Benutzer einen Standard-Arbeitsbereich einträgt, landet beim ersten Öffnen der Kachelseite (`/`, `/desk`, nach dem Login) direkt dort. Die Kachelseite bleibt über das Logo erreichbar.
 
 ## Übersetzungen
 
