@@ -1,0 +1,458 @@
+{
+ "doctype": "Sidebar",
+ "name": "Start",
+ "title": "Start",
+ "module": "Deutsch Design",
+ "app": "deutsch_design",
+ "standard": 1,
+ "header_icon": "house",
+ "creation": "2026-11-13 20:00:00.000000",
+ "modified": "2026-11-13 20:00:00.000000",
+ "modified_by": "Administrator",
+ "owner": "Administrator",
+ "docstatus": 0,
+ "idx": 0,
+ "items": [
+  {
+   "type": "Link",
+   "label": "Start",
+   "link_type": "Workspace",
+   "link_to": "FranceTec",
+   "icon": "house",
+   "child": 0,
+   "collapsible": 1
+  },
+  {
+   "type": "Section Break",
+   "label": "CRM",
+   "link_type": "DocType",
+   "icon": "handshake",
+   "indent": 1,
+   "keep_closed": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Interessenten",
+   "link_type": "DocType",
+   "link_to": "Lead",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Chancen",
+   "link_type": "DocType",
+   "link_to": "Opportunity",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Kontakte",
+   "link_type": "DocType",
+   "link_to": "Contact",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Section Break",
+   "label": "Verkauf",
+   "link_type": "DocType",
+   "icon": "store",
+   "indent": 1,
+   "keep_closed": 0,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Angebote",
+   "link_type": "DocType",
+   "link_to": "Quotation",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Aufträge",
+   "link_type": "DocType",
+   "link_to": "Sales Order",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Lieferscheine",
+   "link_type": "DocType",
+   "link_to": "Delivery Note",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Rechnungen",
+   "link_type": "DocType",
+   "link_to": "Sales Invoice",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Kunden",
+   "link_type": "DocType",
+   "link_to": "Customer",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Preislisten",
+   "link_type": "DocType",
+   "link_to": "Price List",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Artikelpreise",
+   "link_type": "DocType",
+   "link_to": "Item Price",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Section Break",
+   "label": "Einkauf",
+   "link_type": "DocType",
+   "icon": "shopping-cart",
+   "indent": 1,
+   "keep_closed": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Bestellungen",
+   "link_type": "DocType",
+   "link_to": "Purchase Order",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Wareneingänge",
+   "link_type": "DocType",
+   "link_to": "Purchase Receipt",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Eingangsrechnungen",
+   "link_type": "DocType",
+   "link_to": "Purchase Invoice",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Lieferanten",
+   "link_type": "DocType",
+   "link_to": "Supplier",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Section Break",
+   "label": "Lager",
+   "link_type": "DocType",
+   "icon": "package",
+   "indent": 1,
+   "keep_closed": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Artikel",
+   "link_type": "DocType",
+   "link_to": "Item",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Warengruppen",
+   "link_type": "DocType",
+   "link_to": "Item Group",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Lagerbuchungen",
+   "link_type": "DocType",
+   "link_to": "Stock Entry",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Bestand",
+   "link_type": "Report",
+   "link_to": "Stock Balance",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Inventur",
+   "link_type": "DocType",
+   "link_to": "Stock Reconciliation",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Lager",
+   "link_type": "DocType",
+   "link_to": "Warehouse",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Section Break",
+   "label": "Versand",
+   "link_type": "DocType",
+   "icon": "truck",
+   "indent": 1,
+   "keep_closed": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Versandsendungen",
+   "link_type": "DocType",
+   "link_to": "Versandsendung",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "DHL-Abholungen",
+   "link_type": "DocType",
+   "link_to": "DHL Abholauftrag",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Versandabsender",
+   "link_type": "DocType",
+   "link_to": "Versandabsender",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Druckaufträge",
+   "link_type": "DocType",
+   "link_to": "Druckauftrag",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Section Break",
+   "label": "Buchhaltung",
+   "link_type": "DocType",
+   "icon": "calculator",
+   "indent": 1,
+   "keep_closed": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Bankabgleich",
+   "link_type": "DocType",
+   "link_to": "Bank Reconciliation Tool Beta",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Banktransaktionen",
+   "link_type": "DocType",
+   "link_to": "Bank Transaction",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Zahlungen",
+   "link_type": "DocType",
+   "link_to": "Payment Entry",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Buchungssätze",
+   "link_type": "DocType",
+   "link_to": "Journal Entry",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Kontenplan",
+   "link_type": "DocType",
+   "link_to": "Account",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Offene Posten Kunden",
+   "link_type": "Report",
+   "link_to": "Accounts Receivable",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Offene Posten Lieferanten",
+   "link_type": "Report",
+   "link_to": "Accounts Payable",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Gewinn und Verlust",
+   "link_type": "Report",
+   "link_to": "Profit and Loss Statement",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "DATEV",
+   "link_type": "DocType",
+   "link_to": "DATEV Settings",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Section Break",
+   "label": "Apps",
+   "link_type": "DocType",
+   "icon": "blocks",
+   "indent": 1,
+   "keep_closed": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Shopware",
+   "link_type": "DocType",
+   "link_to": "Shopware Setting",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Shop-Protokoll",
+   "link_type": "DocType",
+   "link_to": "Ecommerce Integration Log",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "weclapp-Abgleich",
+   "link_type": "DocType",
+   "link_to": "WeClapp Sync Run",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Zahlungsdienste",
+   "link_type": "DocType",
+   "link_to": "Zahlungsdienst Konto",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "E-Rechnungen",
+   "link_type": "DocType",
+   "link_to": "E Invoice Import",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Webex-Anrufe",
+   "link_type": "DocType",
+   "link_to": "Webex Call Log",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "sevDesk",
+   "link_type": "DocType",
+   "link_to": "SevDesk Sync Log",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Section Break",
+   "label": "Einstellungen",
+   "link_type": "DocType",
+   "icon": "settings",
+   "indent": 1,
+   "keep_closed": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Firma",
+   "link_type": "DocType",
+   "link_to": "Company",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Benutzer",
+   "link_type": "DocType",
+   "link_to": "User",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Marken",
+   "link_type": "DocType",
+   "link_to": "Ecommerce Channel Branding",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Design",
+   "link_type": "DocType",
+   "link_to": "Design Einstellungen",
+   "child": 1,
+   "collapsible": 1
+  },
+  {
+   "type": "Link",
+   "label": "Druckformate",
+   "link_type": "DocType",
+   "link_to": "Print Format",
+   "child": 1,
+   "collapsible": 1
+  }
+ ]
+}

@@ -6,6 +6,10 @@ Eine Frappe-App für ERPNext v16:
 - **Farben.** Unter „Design Einstellungen“ eine Firmenfarbe für alle und auf Wunsch eine eigene Farbe je Benutzer. Sie färbt Knöpfe, Hervorhebungen und die aktive Seitenleiste.
 - **Startseite.** Wer in seinem Benutzer einen Standard-Arbeitsbereich einträgt, landet beim ersten Öffnen der Kachelseite (`/`, `/desk`, nach dem Login) direkt dort. Die Kachelseite bleibt über das Logo erreichbar.
 
+## Seitenleiste „Start“
+
+Eine Leiste für alles, aufgebaut wie in weclapp: Start, CRM, Verkauf, Einkauf, Lager, Versand, Buchhaltung, Apps, Einstellungen. Einträge zu Apps oder Arbeitsbereichen, die auf einer Seite fehlen, blendet ERPNext von selbst aus. Der Name lässt sich je Seite über „Seitenleiste anpassen“ ändern.
+
 ## Übersetzungen
 
 Die Texte stehen in `deutsch_design/translations/de.csv`. Sie füllen nur Lücken:
