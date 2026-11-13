@@ -1,0 +1,1315 @@
+% of Lost Quotations,% verlorene Angebote
+'Days Since Last Order' must be greater than zero,„Tage seit letzter Bestellung“ muss größer als null sein
+(A) Balance Qty,(A) Bilanzmenge
+(B) Expected Balance Qty,(B) Erwartete Saldomenge
+(C) Change in Stock Value,(C) Änderung des Lagerwerts
+(D) Expected Change in Stock Value,(D) Erwartete Änderung des Lagerwerts
+(E) Valuation Rate,(E) Wertansatz
+(F) Expected Valuation Rate,(F) Erwarteter Wertansatz
+(G) Balance Stock Value,(G) Bestandswert
+(H) Expected Balance Stock Value,(H) Erwarteter Bestandswert
+1 raw material,1 Rohmaterial
+3D Model,3D-Modell
+"<h4>Body Text and Closing Text Example</h4>
+
+<div>We have noticed that the following payments, totaling {{ currency }} {{ total_outstanding }}, are overdue:</div>
+<ul>
+{% for row in overdue_payments %}
+<li>Invoice {{ row.sales_invoice }}: {{ currency }} {{ row.outstanding }}, due on {{ row.due_date }}.</li>
+{% endfor %}
+</ul>
+<div>Please pay the amount due immediately to avoid any further dunning cost.</div>
+
+<h4>How to get fieldnames</h4>
+
+<p>The fieldnames you can use in your template are the fields in the document. You can find out the fields of any documents via Setup &gt; Customize Form View and selecting Dunning or Overdue Payment for the payment rows</p>
+
+<h4>Templating</h4>
+
+<p>Templates are compiled using the Jinja Templating Language. To learn more about Jinja, <a class=""strong"" href=""http://jinja.pocoo.org/docs/dev/templates/"">read this documentation.</a></p>","<h4>Beispiel für Text und Schlusstext</h4>
+
+<div>Wir haben festgestellt, dass die folgenden Zahlungen in Höhe von insgesamt {{ currency }} {{ total_outstanding }} überfällig sind:</div>
+<ul>
+{% for row in overdue_payments %}
+<li>Rechnung {{ row.sales_invoice }}: {{ currency }} {{ row.outstanding }}, fällig am {{ row.due_date }}.</li>
+{% endfor %}
+</ul>
+<div>Bitte begleichen Sie den fälligen Betrag umgehend, um weitere Mahnkosten zu vermeiden.</div>
+
+<h4>So finden Sie die Feldnamen</h4>
+
+<p>Die Feldnamen, die Sie in Ihrer Vorlage verwenden können, sind die Felder des Dokuments. Die Felder eines Dokuments finden Sie unter Einrichtung &gt; Formular anpassen, indem Sie Mahnung bzw. für die Zahlungszeilen Überfällige Zahlung auswählen</p>
+
+<h4>Vorlagen</h4>
+
+<p>Vorlagen werden mit der Jinja-Vorlagensprache kompiliert. Um mehr über Jinja zu erfahren, <a class=""strong"" href=""http://jinja.pocoo.org/docs/dev/templates/"">lesen Sie diese Dokumentation.</a></p>"
+"A band of scores, and what happens to suppliers in it.",Ein Punktebereich und was mit Lieferanten darin geschieht.
+A bank account of yours or of a customer or supplier.,Ein Bankkonto von Ihnen oder von einem Kunden oder Lieferanten.
+A bank you or your customers and suppliers hold accounts with.,"Eine Bank, bei der Sie oder Ihre Kunden und Lieferanten Konten führen."
+A batch of payments to send to your bank.,"Ein Stapel von Zahlungen, die an Ihre Bank gesendet werden."
+A bill from a supplier for what you bought.,"Eine Rechnung eines Lieferanten für das, was Sie gekauft haben."
+A bill to a customer for what you sold.,"Eine Rechnung an einen Kunden für das, was Sie verkauft haben."
+A branch of your company.,Eine Filiale Ihres Unternehmens.
+A brand your items are sold under.,"Eine Marke, unter der Ihre Artikel verkauft werden."
+A certificate that lets you withhold less tax from a supplier.,"Eine Bescheinigung, mit der Sie bei einem Lieferanten weniger Steuern einbehalten."
+"A channel customers reach you on, like a phone line.","Ein Kanal, über den Kunden Sie erreichen, z. B. eine Telefonleitung."
+"A class of shares, like equity or preference.","Eine Anteilsklasse, z. B. Stamm- oder Vorzugsanteile."
+A closing balance already exists for Bank Account {0} on {1}.,Für Bankkonto {0} existiert am {1} bereits ein Schlusssaldo.
+A code customers enter to get a discount from a pricing rule.,"Ein Code, den Kunden eingeben, um einen Rabatt aus einer Preisregel zu erhalten."
+A code from a code list and what it maps to.,Ein Code aus einer Code-Liste und worauf er abgebildet wird.
+A company or person you buy goods or services from.,"Ein Unternehmen oder eine Person, von dem bzw. der Sie Waren oder Dienstleistungen kaufen."
+A company or person you sell goods or services to.,"Ein Unternehmen oder eine Person, an das bzw. die Sie Waren oder Dienstleistungen verkaufen."
+A company that makes the items you buy or sell.,"Ein Unternehmen, das die Artikel herstellt, die Sie kaufen oder verkaufen."
+"A company you are trying to win as a customer, with its leads.","Ein Unternehmen, das Sie als Kunden gewinnen möchten, mit seinen Interessenten."
+A customer's claim to repair or replace an item under warranty.,Der Anspruch eines Kunden auf Reparatur oder Ersatz eines Artikels im Rahmen der Garantie.
+A customer's confirmed order.,Ein bestätigter Auftrag eines Kunden.
+A date range you can close so no one posts into it.,"Ein Zeitraum, den Sie abschließen können, damit niemand mehr darin bucht."
+A department of your company.,Eine Abteilung Ihres Unternehmens.
+A design with the status {0} cannot be changed. Make a new revision to change it.,"Ein Entwurf mit dem Status {0} kann nicht geändert werden. Erstellen Sie eine neue Revision, um ihn zu ändern."
+"A direct entry in your books, for anything without its own form.","Eine direkte Buchung in Ihren Büchern für alles, was kein eigenes Formular hat."
+"A distributor, dealer or reseller who sells for you on commission.","Ein Händler, Vertriebshändler oder Wiederverkäufer, der gegen Provision für Sie verkauft."
+A draft {0} already exists for this Pick List: {1}. Do you still want to create a new one?,Für diese Pickliste existiert bereits ein Entwurf von {0}: {1}. Möchten Sie trotzdem einen neuen erstellen?
+"A finer grouping of bank accounts, like savings or current.","Eine feinere Gruppierung von Bankkonten, z. B. Spar- oder Girokonto."
+A group of tax withholding categories that apply together.,"Eine Gruppe von Steuereinbehalt-Kategorien, die gemeinsam gelten."
+A group of units of an item made or received together.,"Eine Gruppe von Einheiten eines Artikels, die zusammen hergestellt oder empfangen wurden."
+"A grouping of bank accounts, like checking or credit card.","Eine Gruppierung von Bankkonten, z. B. Girokonto oder Kreditkarte."
+"A grouping of calls, like sales or support.","Eine Gruppierung von Anrufen, z. B. Vertrieb oder Support."
+A grouping of inspection parameters.,Eine Gruppierung von Prüfparametern.
+"A grouping of issues, like billing or technical.","Eine Gruppierung von Anfragen, z. B. Abrechnung oder Technik."
+"A grouping of projects, like internal or external.","Eine Gruppierung von Projekten, z. B. intern oder extern."
+"A grouping of tasks, like bug or feature.","Eine Gruppierung von Aufgaben, z. B. Fehler oder Funktion."
+"A grouping of units, like weight or length.","Eine Gruppierung von Einheiten, z. B. Gewicht oder Länge."
+"A grouping of warehouses, like transit or store.","Eine Gruppierung von Lagern, z. B. Transit oder Laden."
+"A guarantee a bank gives on your behalf, or on a customer's or supplier's.","Eine Garantie, die eine Bank in Ihrem Namen oder im Namen eines Kunden oder Lieferanten abgibt."
+"A job title, like manager or accountant.","Eine Stellenbezeichnung, z. B. Manager oder Buchhalter."
+"A kind of stock entry, like material transfer or manufacture.","Eine Art von Lagerbuchung, z. B. Materialtransfer oder Fertigung."
+"A kind of work you track time against, like design or support.","Eine Art von Arbeit, für die Sie Zeit erfassen, z. B. Design oder Support."
+"A kind of workstation, with its costs.",Eine Art von Arbeitsplatz mit ihren Kosten.
+A ledger in your chart of accounts that entries are posted to.,"Ein Konto in Ihrem Kontenplan, auf das Buchungen erfolgen."
+"A legal entity with its own books, like your business or a subsidiary.","Eine juristische Person mit eigener Buchführung, z. B. Ihr Unternehmen oder eine Tochtergesellschaft."
+"A line from your bank statement, ready to be matched with a payment.","Eine Zeile aus Ihrem Kontoauszug, bereit zum Abgleich mit einer Zahlung."
+A machine or place where operations are done.,"Eine Maschine oder ein Ort, an dem Arbeitsgänge ausgeführt werden."
+"A marketing campaign, to see which leads and sales it brought in.","Eine Marketingkampagne, um zu sehen, welche Interessenten und Verkäufe sie gebracht hat."
+A meeting booked with a lead or customer.,Ein mit einem Interessenten oder Kunden vereinbarter Termin.
+"A meeting to review quality, with its agenda and minutes.",Ein Treffen zur Qualitätsüberprüfung mit Tagesordnung und Protokoll.
+A newer revision of this design already exists.,Eine neuere Revision dieses Entwurfs existiert bereits.
+A parcel size you ship often.,"Eine Paketgröße, die Sie häufig versenden."
+A parcel you send through a carrier.,"Ein Paket, das Sie über einen Versanddienstleister versenden."
+"A part of your business you track income and expenses for, like a branch or product line.","Ein Teil Ihres Unternehmens, für den Sie Erträge und Aufwendungen erfassen, z. B. eine Filiale oder Produktlinie."
+A periodic check of how a quality goal is going.,"Eine regelmäßige Überprüfung, wie es um ein Qualitätsziel steht."
+A person or company that owns shares in your company.,"Eine Person oder ein Unternehmen, die bzw. das Anteile an Ihrem Unternehmen hält."
+A phantom BOM cannot use 'Produce Item per Operation'.,Eine Phantom-Stückliste kann „Artikel je Arbeitsgang fertigen“ nicht verwenden.
+A phone call made or received.,Ein getätigter oder empfangener Telefonanruf.
+"A piece of work to be done, often part of a project.","Eine zu erledigende Arbeit, oft Teil eines Projekts."
+"A piece of work with tasks, time and costs.","Ein Arbeitsvorhaben mit Aufgaben, Zeiten und Kosten."
+A place where you keep stock.,"Ein Ort, an dem Sie Bestand lagern."
+A place where your assets are kept.,"Ein Ort, an dem Ihre Vermögensgegenstände aufbewahrt werden."
+A potential sale to a lead or customer.,Ein möglicher Verkauf an einen Interessenten oder Kunden.
+A problem or question raised by a customer.,Ein Problem oder eine Frage eines Kunden.
+A Process Period Closing Voucher already exists for {0},Für {0} existiert bereits ein Periodenabschlussbeleg
+"A product or service you buy, sell or keep in stock.","Ein Produkt oder eine Dienstleistung, die Sie kaufen, verkaufen oder auf Lager halten."
+A progress update collected from the project team.,Ein vom Projektteam eingeholter Fortschrittsbericht.
+"A property item variants differ by, like size or colour.","Eine Eigenschaft, in der sich Artikelvarianten unterscheiden, z. B. Größe oder Farbe."
+"A published list of codes, like units or tax categories, used in e-invoicing.","Eine veröffentlichte Liste von Codes, z. B. Einheiten oder Steuerkategorien, die in der E-Rechnung verwendet wird."
+A record of maintenance done on an asset.,Ein Nachweis über eine Wartung an einem Vermögensgegenstand.
+"A record of shares issued, bought back or moved between shareholders.","Ein Nachweis über ausgegebene, zurückgekaufte oder zwischen Anteilseignern übertragene Anteile."
+"A region you sell in, to group customers and set targets.","Eine Region, in der Sie verkaufen, um Kunden zu gruppieren und Ziele festzulegen."
+A regular email summing up how the business is doing.,Eine regelmäßige E-Mail mit einer Zusammenfassung der Geschäftsentwicklung.
+A reminder to a customer about an overdue invoice.,Eine Erinnerung an einen Kunden wegen einer überfälligen Rechnung.
+"A repair made to an asset, and what it cost.",Eine Reparatur an einem Vermögensgegenstand und ihre Kosten.
+"A request to buy, transfer or make items.","Eine Anfrage, Artikel zu kaufen, umzulagern oder herzustellen."
+A row in {0} was removed because its design part is not in the new design file.,"Eine Zeile in {0} wurde entfernt, weil ihr Konstruktionsteil nicht in der neuen Konstruktionsdatei enthalten ist."
+A sale made at the point of sale.,Ein Verkauf an der Kasse (POS).
+A saved set of accounts to start journal entries from.,Eine gespeicherte Auswahl von Konten als Ausgangspunkt für Buchungssätze.
+"A separate set of books, for example to depreciate assets under another rule.","Eine separate Buchführung, z. B. um Vermögensgegenstände nach einer anderen Regel abzuschreiben."
+A series of emails sent to leads or contacts on a schedule.,"Eine Folge von E-Mails, die nach Zeitplan an Interessenten oder Kontakte gesendet werden."
+"A set of discounts and free items, like buy two get one free.","Eine Kombination aus Rabatten und Gratisartikeln, z. B. „Kaufe zwei, erhalte einen gratis“."
+"A set of item prices for buying, selling or both.","Eine Zusammenstellung von Artikelpreisen für Einkauf, Verkauf oder beides."
+A set of payment terms to apply to invoices and orders.,Eine Zusammenstellung von Zahlungsbedingungen für Rechnungen und Aufträge.
+A set of tasks to start new projects from.,Eine Zusammenstellung von Aufgaben als Vorlage für neue Projekte.
+"A single unit of an item, tracked by its own number.","Eine einzelne Einheit eines Artikels, die über eine eigene Nummer verfolgt wird."
+"A step in making an item, like cutting or assembly.","Ein Schritt bei der Herstellung eines Artikels, z. B. Zuschnitt oder Montage."
+"A step in your sales process, like qualification or negotiation.","Ein Schritt in Ihrem Verkaufsprozess, z. B. Qualifizierung oder Verhandlung."
+A sub-assembly BOM is made for one unit.,Eine Unterbaugruppen-Stückliste wird für eine Einheit erstellt.
+"A transaction for customer {0} is blocked by its credit limit. Current outstanding: {1}, credit limit: {2}","Eine Transaktion für Kunde {0} ist durch dessen Kreditlimit gesperrt. Aktuell ausstehend: {1}, Kreditlimit: {2}"
+"A unit you measure items in, like kg or box.","Eine Einheit, in der Sie Artikel messen, z. B. kg oder Karton."
+A value a scorecard criterion is calculated from.,"Ein Wert, aus dem ein Kriterium der Lieferantenbewertung berechnet wird."
+A vehicle's route to deliver to several customers.,Die Route eines Fahrzeugs zur Belieferung mehrerer Kunden.
+A view of your workstations and what each is doing.,Eine Übersicht Ihrer Arbeitsplätze und was jeder gerade tut.
+A visit to service or repair what a customer bought.,"Ein Besuch, um etwas zu warten oder zu reparieren, das ein Kunde gekauft hat."
+"A way you pay or get paid, like cash, bank transfer or card.","Eine Art, wie Sie bezahlen oder bezahlt werden, z. B. Bargeld, Überweisung oder Karte."
+A {0} cannot be made from a {1} Blanket Order,Ein(e) {0} kann nicht aus einem {1}-Blankoauftrag erstellt werden
+Accepted Stock Value Difference,Lagerwertdifferenz (angenommen)
+Account for Return Entries,Konto für Retourenbuchungen
+Account Name cannot be empty,Der Kontoname darf nicht leer sein
+Account {0} and Party Type {1} have different account types,Konto {0} und Partei-Typ {1} haben unterschiedliche Kontoarten
+Account {0} must be a non-group account of type Bank,Konto {0} muss ein Nicht-Gruppen-Konto vom Typ Bank sein
+Account {0} must be a non-group account of type Stock,Konto {0} muss ein Nicht-Gruppen-Konto vom Typ Lager sein
+Accounts and Transaction Details,Konten und Transaktionsdetails
+Add 3D Model,3D-Modell hinzufügen
+Add Aggregate,Aggregation hinzufügen
+Add Another Batch,Weitere Charge hinzufügen
+Add Back to BOM,Wieder zur Stückliste hinzufügen
+Add Email Account,E-Mail-Konto hinzufügen
+Add Group By,Gruppierung hinzufügen
+Add Holidays,Arbeitsfreie Tage hinzufügen
+Add Material,Material hinzufügen
+Add material to {0},Material zu {0} hinzufügen
+Add raw material,Rohmaterial hinzufügen
+Add raw materials to the finished good.,Fügen Sie dem Fertigerzeugnis Rohmaterialien hinzu.
+Add Sub-Assembly BOM,Unterbaugruppen-Stückliste hinzufügen
+Add the items of each sub-assembly BOM under the sub-assembly.,Die Artikel jeder Unterbaugruppen-Stückliste unter der Unterbaugruppe hinzufügen.
+Add to,Hinzufügen zu
+Add to Transit cannot be enabled on the standard Stock Entry Type {0}. Create a separate Stock Entry Type for transit transfers.,„Zum Transit hinzufügen“ kann für die Standard-Lagerbuchungsart {0} nicht aktiviert werden. Erstellen Sie eine separate Lagerbuchungsart für Transitumlagerungen.
+Additional Discount has been removed as Pricing Rule {0} is no longer applicable,"Der zusätzliche Rabatt wurde entfernt, da die Preisregel {0} nicht mehr anwendbar ist"
+Additional Discount per Stock Unit,Zusätzlicher Rabatt je Lagereinheit
+"Adds freight, duty and other charges to the cost of received items.","Schlägt Fracht, Zoll und andere Kosten auf die Kosten empfangener Artikel auf."
+Adjusted By,Angepasst von
+Adjustment Date,Anpassungsdatum
+Adjustment during the period,Anpassung im Zeitraum
+Adjustment Entry,Anpassungsbuchung
+"Adjustment Entry can only be used by the system from the Stock Valuation Comparison report. Users can only select the purpose Opening Stock to add opening stock, or Stock Reconciliation to update stock quantity or valuation rate.","Die Anpassungsbuchung kann nur vom System aus dem Bericht „Vergleich der Lagerbewertung“ verwendet werden. Benutzer können nur den Zweck „Anfangsbestand“ wählen, um einen Anfangsbestand hinzuzufügen, oder „Bestandsabgleich“, um Lagermenge oder Wertansatz zu aktualisieren."
+Adjustment Time,Anpassungszeit
+"After the adjustment, Item {0} in Warehouse {1} would hold a qty of {2} worth {3}, instead of {4} worth {5}.",Nach der Anpassung hätte Artikel {0} im Lager {1} eine Menge von {2} im Wert von {3} statt {4} im Wert von {5}.
+Agent Instructions,Anweisungen für Agenten
+Aggregate,Aggregation
+AI Agents,KI-Agenten
+All Differences,Alle Differenzen
+All Entries,Alle Buchungen
+All items have already been delivered,Alle Artikel wurden bereits geliefert
+All parts are mapped to items,Alle Teile sind Artikeln zugeordnet
+All quantities of Item {0} in {1} are already linked to Assets.,Alle Mengen von Artikel {0} in {1} sind bereits mit Vermögensgegenständen verknüpft.
+All Stock Ledger Entries and Serial and Batch Bundles of the selected vouchers will be cancelled and reposting will be queued. Continue?,Alle Buchungen im Lagerbuch und Serien- und Chargenbündel der ausgewählten Belege werden storniert und die Neubuchung wird eingeplant. Fortfahren?
+Ambiguous Exchange Journal,Mehrdeutiges Wechselkurs-Journal
+An agreement to buy or sell an item at a fixed price over a period.,"Eine Vereinbarung, einen Artikel über einen Zeitraum zu einem festen Preis zu kaufen oder zu verkaufen."
+"An agreement with a customer, supplier or employee.","Eine Vereinbarung mit einem Kunden, Lieferanten oder Mitarbeiter."
+An employee can only appear once in an Employee Group,Ein Mitarbeiter darf in einer Mitarbeitergruppe nur einmal vorkommen
+"An extra way to tag entries, like branch or region, beyond cost centers.","Eine zusätzliche Möglichkeit, Buchungen über Kostenstellen hinaus zu kennzeichnen, z. B. nach Filiale oder Region."
+"An extra way to tag stock, like a rack or bin.","Eine zusätzliche Möglichkeit, Bestand zu kennzeichnen, z. B. nach Regal oder Lagerplatz."
+An item you can use in place of another.,"Ein Artikel, den Sie anstelle eines anderen verwenden können."
+An order for a subcontractor to make items from your materials.,"Ein Auftrag an einen Unterauftragnehmer, Artikel aus Ihren Materialien herzustellen."
+An order to make a quantity of an item.,"Ein Auftrag, eine bestimmte Menge eines Artikels herzustellen."
+An order to make items for a customer from materials they send.,"Ein Auftrag, Artikel für einen Kunden aus von ihm gelieferten Materialien herzustellen."
+An order you place with a supplier.,"Eine Bestellung, die Sie bei einem Lieferanten aufgeben."
+API discovery cache is being generated. Please try again in 10 seconds.,Der API-Discovery-Cache wird erstellt. Bitte versuchen Sie es in 10 Sekunden erneut.
+applied the editor draft,hat den Editor-Entwurf übernommen
+Applies a tax template automatically when its conditions match.,"Wendet automatisch eine Steuervorlage an, wenn ihre Bedingungen zutreffen."
+Appointment Duration must be greater than 0 minutes.,Die Termindauer muss größer als 0 Minuten sein.
+Appointment must start at the beginning of an available slot.,Der Termin muss zu Beginn eines verfügbaren Zeitfensters beginnen.
+Appointment With must be a Customer or a Lead,„Termin mit“ muss ein Kunde oder ein Interessent sein
+April - May,April – Mai
+"Ask a customer to pay, by email with a payment link.",Einen Kunden per E-Mail mit Zahlungslink zur Zahlung auffordern.
+Ask suppliers for prices on the items you need.,Holen Sie bei Lieferanten Preise für die benötigten Artikel ein.
+Assemblies {0} and {1} are mapped to item {2} but have different raw materials.,"Die Baugruppen {0} und {1} sind Artikel {2} zugeordnet, haben aber unterschiedliche Rohmaterialien."
+Asset Gross Value,Bruttowert des Vermögensgegenstands
+Asset Repair {0} deleted,Vermögensgegenstand-Reparatur {0} gelöscht
+Asset Repair {0} discarded,Vermögensgegenstand-Reparatur {0} verworfen
+Asset Repair {0} marked as Cancelled,Vermögensgegenstand-Reparatur {0} als storniert markiert
+Asset Repair {0} marked as Completed,Vermögensgegenstand-Reparatur {0} als abgeschlossen markiert
+Asset returned by Employee {0},Vermögensgegenstand von Mitarbeiter {0} zurückgegeben
+Asset Split,Aufteilung des Vermögensgegenstands
+Asset Value Adjustment cannot be posted before the last depreciation entry dated {0},Eine Anpassung des Vermögenswerts kann nicht vor der letzten Abschreibungsbuchung vom {0} gebucht werden
+Asset Value After Depreciation,Wert des Vermögensgegenstands nach Abschreibung
+Asset Value Updated,Wert des Vermögensgegenstands aktualisiert
+"Asset {0} cannot be restored, as it is not scrapped","Vermögensgegenstand {0} kann nicht wiederhergestellt werden, da er nicht verschrottet ist"
+"Asset {0} cannot be split, as it is {1}","Vermögensgegenstand {0} kann nicht aufgeteilt werden, da er {1} ist"
+"Asset {0} is disposed, its value cannot be adjusted","Vermögensgegenstand {0} ist ausgebucht, sein Wert kann nicht angepasst werden"
+Asset {0} is {1} and cannot be moved,Vermögensgegenstand {0} ist {1} und kann nicht bewegt werden
+"Asset {0} was split into Asset {1} after this adjustment, so it cannot be cancelled. Adjust the value of each asset instead.",Vermögensgegenstand {0} wurde nach dieser Anpassung in Vermögensgegenstand {1} aufgeteilt und kann daher nicht storniert werden. Passen Sie stattdessen den Wert jedes einzelnen Vermögensgegenstands an.
+Assignees,Zuständige
+Attach a STEP file (.step or .stp) or a CSV file.,Hängen Sie eine STEP-Datei (.step oder .stp) oder eine CSV-Datei an.
+Availability slots for {0} cannot overlap: rows {1} and {2},Verfügbarkeitszeitfenster für {0} dürfen sich nicht überschneiden: Zeilen {1} und {2}
+Average Commission Rate,Durchschnittlicher Provisionssatz
+Back to the editor,Zurück zum Editor
+Backdated Entry Before Adjustment Entry,Rückdatierte Buchung vor Anpassungsbuchung
+Background image loaded from a web address,Hintergrundbild von einer Webadresse geladen
+Bank Account {0} does not belong to Company {1},Bankkonto {0} gehört nicht zum Unternehmen {1}
+Bank Account {0} does not belong to {1} {2},Bankkonto {0} gehört nicht zu {1} {2}
+Bank Account {0} is missing or disabled,Bankkonto {0} fehlt oder ist deaktiviert
+Bank Account {0} must be a company account belonging to {1},Bankkonto {0} muss ein Unternehmenskonto von {1} sein
+Batch Size cannot be negative.,Die Chargengröße darf nicht negativ sein.
+Batch {0} does not belong to Item {1},Charge {0} gehört nicht zu Artikel {1}
+Bills a customer or supplier for the same things on a schedule.,Stellt einem Kunden oder Lieferanten dieselben Leistungen nach Zeitplan in Rechnung.
+Blanket Order {0} is a {1} order and cannot be used on a {2},Blankoauftrag {0} ist ein {1}-Auftrag und kann nicht für ein(e) {2} verwendet werden
+"Blanket Order {0} is for {1}, not {2}","Blankoauftrag {0} gilt für {1}, nicht für {2}"
+"Blanket Order {0} is in {1}, not {2}","Blankoauftrag {0} ist in {1}, nicht in {2}"
+BOM Creator Material,Stücklistenersteller-Material
+BOM Creator Operation,Stücklistenersteller-Arbeitsgang
+BOM Node,Stücklistenknoten
+BOM Operations,Stücklisten-Arbeitsgänge
+"BOM {0} is the BOM of an operation in {1}, which track semi-finished goods. Amend those BOMs to use the new BOM so their operation materials are fetched again.","Stückliste {0} ist die Stückliste eines Arbeitsgangs in {1}, die Halbfertigerzeugnisse verfolgen. Ändern Sie diese Stücklisten so, dass sie die neue Stückliste verwenden, damit ihre Arbeitsgangmaterialien erneut abgerufen werden."
+BOM {0} must be active and submitted.,Stückliste {0} muss aktiv und gebucht sein.
+BOM {0} uses itself as a raw material.,Stückliste {0} verwendet sich selbst als Rohmaterial.
+BOMs are already created from this design. Cancel them to create them again.,"Aus diesem Entwurf wurden bereits Stücklisten erstellt. Stornieren Sie sie, um sie erneut zu erstellen."
+Books Closed Through,Bücher abgeschlossen bis
+Books deferred revenue or expense for a period.,Bucht abgegrenzte Erträge oder Aufwendungen für einen Zeitraum.
+Brands,Marken
+Bring in a bank statement to match its lines against your books.,"Importieren Sie einen Kontoauszug, um seine Zeilen mit Ihren Büchern abzugleichen."
+Bring in your chart of accounts from a spreadsheet.,Importieren Sie Ihren Kontenplan aus einer Tabelle.
+"Build a multi-level BOM by hand or from a CAD design, plan its operations, and create the BOMs.","Erstellen Sie eine mehrstufige Stückliste manuell oder aus einem CAD-Entwurf, planen Sie ihre Arbeitsgänge und legen Sie die Stücklisten an."
+CAD File,CAD-Datei
+Calendar Year,Kalenderjahr
+Call Schedule Row {0}: To time slot should always be ahead of From time slot. Split overnight slots by day.,Anrufplan Zeile {0}: Das Zeitfenster „Bis“ muss immer nach dem Zeitfenster „Von“ liegen. Teilen Sie Zeitfenster über Nacht nach Tagen auf.
+Call Type {0} is not submitted.,Anruftyp {0} ist nicht gebucht.
+Can Create,Darf erstellen
+"Cancel Asset Repair {0} instead, it cancels this Stock Entry",Stornieren Sie stattdessen Vermögensgegenstand-Reparatur {0}; dadurch wird diese Lagerbuchung storniert
+Cancel Maintenance Visits {0} before cancelling this Maintenance Visit,"Stornieren Sie die Wartungsbesuche {0}, bevor Sie diesen Wartungsbesuch stornieren"
+Cancel Stock Ledger Entries,Buchungen im Lagerbuch stornieren
+Cancel the Process Period Closing Voucher document to stop processing,"Stornieren Sie das Dokument „Periodenabschlussbeleg verarbeiten“, um die Verarbeitung zu beenden"
+Cancelled transactions cannot be deleted when Immutable Ledger is enabled.,"Stornierte Transaktionen können nicht gelöscht werden, wenn das unveränderliche Hauptbuch aktiviert ist."
+Cannot activate BOM {0} because sub-assembly BOMs {1} are not active,"Stückliste {0} kann nicht aktiviert werden, da die Unterbaugruppen-Stücklisten {1} nicht aktiv sind"
+Cannot add an open task under completed Parent Task {0}.,Unter der abgeschlossenen übergeordneten Aufgabe {0} kann keine offene Aufgabe hinzugefügt werden.
+Cannot cancel since the asset's depreciation schedule has changed or depreciation has been posted after this allocation was submitted,"Stornierung nicht möglich, da sich der Abschreibungsplan des Vermögensgegenstands geändert hat oder nach dem Buchen dieser Zuweisung Abschreibungen gebucht wurden"
+Cannot cancel the depreciation schedule of submitted Asset {0}. Cancel the Asset instead.,Der Abschreibungsplan des gebuchten Vermögensgegenstands {0} kann nicht storniert werden. Stornieren Sie stattdessen den Vermögensgegenstand.
+Cannot change Account Type for {0} after ledger entries exist,"Der Kontotyp für {0} kann nicht geändert werden, da bereits Buchungen vorhanden sind"
+Cannot change Report Type of {0} from {1} to {2} because the account or its child accounts have ledger entries.,"Der Berichtstyp von {0} kann nicht von {1} in {2} geändert werden, da für das Konto oder seine Unterkonten Buchungen vorhanden sind."
+Cannot change the company or company shareholder status while shares or submitted share transfers exist,"Das Unternehmen oder der Anteilseignerstatus des Unternehmens kann nicht geändert werden, solange Anteile oder gebuchte Anteilsübertragungen vorhanden sind"
+Cannot change the provider of this sign-in identifier.,Der Anbieter dieser Anmeldekennung kann nicht geändert werden.
+Cannot change the sign-in identifier for the frappe provider.,Die Anmeldekennung für den Anbieter frappe kann nicht geändert werden.
+Cannot change {0} for company {1} since it has active assets in this category,"{0} kann für Unternehmen {1} nicht geändert werden, da es in dieser Kategorie aktive Vermögensgegenstände gibt"
+Cannot change {0} of a certificate that is used in Tax Withholding Entries,"{0} eines Zertifikats, das in Quellensteuer-Buchungen verwendet wird, kann nicht geändert werden"
+Cannot Combine Orders,Aufträge können nicht zusammengeführt werden
+Cannot create a Sales Invoice against Lost Quotation {0}.,Zum verlorenen Angebot {0} kann keine Ausgangsrechnung erstellt werden.
+Cannot create a Subcontracting Order against Purchase Order {0} because it is {1}.,"Zur Bestellung {0} kann kein Unterauftrag erstellt werden, da sie {1} ist."
+Cannot create Intercompany {0}. All items in the source {1} have already been fully ordered. Please check the existing linked {2}s.,Unternehmensübergreifende(r) {0} kann nicht erstellt werden. Alle Artikel in der Quelle {1} wurden bereits vollständig bestellt. Bitte prüfen Sie die bestehenden verknüpften {2}.
+Cannot create recurring document: no exchange rate found for {0} to {1} on {2}. Please create a Currency Exchange record.,Wiederkehrendes Dokument kann nicht erstellt werden: Kein Wechselkurs von {0} nach {1} am {2} gefunden. Bitte legen Sie einen Datensatz unter Währungs-Umrechnung an.
+Cannot delete a certificate that is used in Tax Withholding Entries,"Ein Zertifikat, das in Quellensteuer-Buchungen verwendet wird, kann nicht gelöscht werden"
+Cannot delete a shareholder with shares or submitted share transfers,Ein Anteilseigner mit Anteilen oder gebuchten Anteilsübertragungen kann nicht gelöscht werden
+Cannot find {0} for Item {1},{0} für Artikel {1} nicht gefunden
+Cannot generate the closing balance of Stock Closing Entry {0} while Repost Item Valuation entries dated on or before {1} are pending. Try again once they are completed.,"Der Abschlusssaldo des Bestandsabschlusseintrags {0} kann nicht erzeugt werden, solange Einträge zum Neubuchen der Artikelbewertung mit Datum am oder vor dem {1} ausstehen. Versuchen Sie es erneut, sobald diese abgeschlossen sind."
+Cannot log time against cancelled Tasks: {0},Für stornierte Aufgaben kann keine Zeit erfasst werden: {0}
+Cannot mark the category as Non Depreciable since it has assets being depreciated,"Die Kategorie kann nicht als nicht abschreibbar markiert werden, da sie Vermögensgegenstände enthält, die abgeschrieben werden"
+"Cannot merge into {0}. Its balance after the merge would be in {1}, but its Balance must be is {2}.","Zusammenführen in {0} nicht möglich. Der Saldo nach dem Zusammenführen wäre im {1}, der Saldo muss jedoch im {2} sein."
+Cannot plan {0} {1} of Item {2} against Sales Order {3}. Only {4} {1} is left to plan.,{0} {1} von Artikel {2} können nicht zum Auftrag {3} eingeplant werden. Es sind nur noch {4} {1} einzuplanen.
+Cannot regenerate Stock Closing Entry {0} because the later Stock Closing Entry {1} is built on it. Cancel {1} first.,"Der Bestandsabschlusseintrag {0} kann nicht neu erzeugt werden, da der spätere Bestandsabschlusseintrag {1} darauf aufbaut. Stornieren Sie zuerst {1}."
+Cannot repost item valuation from {0} because {1} {2} falls in the closed Accounting Period {3},"Die Artikelbewertung kann ab {0} nicht neu gebucht werden, da {1} {2} in den abgeschlossenen Abrechnungszeitraum {3} fällt"
+Cannot select a Group type Supplier Group. Please select a non-group Supplier Group.,"Eine Lieferantengruppe vom Typ Gruppe kann nicht ausgewählt werden. Bitte wählen Sie eine Lieferantengruppe aus, die keine Gruppe ist."
+Cannot set Project to Completed,Projekt kann nicht auf Abgeschlossen gesetzt werden
+Cannot set the status of a Purchase Order to {0}.,Der Status einer Bestellung kann nicht auf {0} gesetzt werden.
+Cannot set the status of a Subcontracting Order to {0}.,Der Status eines Unterauftrags kann nicht auf {0} gesetzt werden.
+Cannot uniquely match exchange journals {0} to {1}. Review and cancel the matching exchange journal and reconciliation journal instead.,Die Wechselkursbuchungen {0} können nicht eindeutig {1} zugeordnet werden. Prüfen und stornieren Sie stattdessen die passende Wechselkursbuchung und die Abgleichsbuchung.
+Cannot update items of Purchase Order {0} because it is {1}.,"Die Artikel der Bestellung {0} können nicht aktualisiert werden, da sie {1} ist."
+Cannot update items of Quotation {0} because it has expired.,"Die Artikel des Angebots {0} können nicht aktualisiert werden, da es abgelaufen ist."
+Cannot update items of Quotation {0} because it is {1}.,"Die Artikel des Angebots {0} können nicht aktualisiert werden, da es {1} ist."
+Cannot update items of Supplier Quotation {0} because it is {1}.,"Die Artikel des Lieferantenangebots {0} können nicht aktualisiert werden, da es {1} ist."
+Certificate Limit must be greater than 0,Das Zertifikatslimit muss größer als 0 sein
+Change Existing BOM,Bestehende Stückliste ändern
+Change the Finished Good Quantity to make more.,"Ändern Sie die Fertigerzeugnis-Menge, um mehr herzustellen."
+Changes a price or gives a discount when its conditions are met.,"Ändert einen Preis oder gewährt einen Rabatt, wenn die Bedingungen erfüllt sind."
+Changes an asset's value outside its depreciation.,Ändert den Wert eines Vermögensgegenstands außerhalb seiner Abschreibung.
+Changes from {0},Änderungen gegenüber {0}
+"Changes how many shifts an asset works, which changes its depreciation.","Ändert, in wie vielen Schichten ein Vermögensgegenstand arbeitet, und damit seine Abschreibung."
+Check Serial No,Seriennummer prüfen
+Checks an item against its quality parameters.,Prüft einen Artikel anhand seiner Qualitätsparameter.
+Cheque Print Format Requires Review,Scheck-Druckformat muss überprüft werden
+Choose your email provider,Wählen Sie Ihren E-Mail-Anbieter
+Circular reference found for account {0},Zirkelbezug für Konto {0} gefunden
+Claimed amount {0} for Vendor Invoice {1} exceeds its unclaimed amount {2},Der beanspruchte Betrag {0} für Lieferantenrechnung {1} übersteigt den noch nicht beanspruchten Betrag {2}
+Clear all filters,Alle Filter entfernen
+Clear Grouping,Gruppierung aufheben
+Clear grouping,Gruppierung aufheben
+Click on the model where {0} goes.,"Klicken Sie auf die Stelle im Modell, an die {0} gehört."
+Clients sign in with OAuth: they open this site's login and ask you to allow access. Configure this in {0}.,"Clients melden sich per OAuth an: Sie öffnen die Anmeldung dieser Website und bitten Sie, den Zugriff zu erlauben. Dies konfigurieren Sie unter {0}."
+Close,Schließen
+Closes a fiscal year by moving its profit or loss to equity.,"Schließt ein Geschäftsjahr ab, indem dessen Gewinn oder Verlust ins Eigenkapital übertragen wird."
+Closes a POS shift and totals what was collected.,Schließt eine POS-Schicht ab und summiert die eingenommenen Beträge.
+Closes stock balances for a period so reports run faster.,"Schließt die Lagerbestände für einen Zeitraum ab, damit Berichte schneller laufen."
+Closing Account {0} cannot be a group account,Das Abschlusskonto {0} darf kein Gruppenkonto sein
+Closing Account {0} does not belong to Company {1},Das Abschlusskonto {0} gehört nicht zum Unternehmen {1}
+Closing Account {0} is disabled,Das Abschlusskonto {0} ist deaktiviert
+Closing balances can only be recorded for company bank accounts.,Abschlusssalden können nur für Bankkonten des Unternehmens erfasst werden.
+Combine two or more accounts into one.,Zwei oder mehr Konten zu einem zusammenführen.
+Company cannot be changed for an existing Cost Center,Das Unternehmen einer bestehenden Kostenstelle kann nicht geändert werden
+Company cannot be changed for Warehouse {0} as it has child warehouses,"Das Unternehmen kann für Lager {0} nicht geändert werden, da es untergeordnete Lager hat"
+Company cannot be changed for Warehouse {0} as it has stock transactions,"Das Unternehmen kann für Lager {0} nicht geändert werden, da es Lagertransaktionen hat"
+"Company cannot be changed, create South Africa VAT Settings for {0} instead",Das Unternehmen kann nicht geändert werden. Legen Sie stattdessen South Africa VAT Settings für {0} an
+Company is mandatory when Based On is Amount,"Unternehmen ist ein Pflichtfeld, wenn „Basiert auf“ auf Betrag steht"
+Company is mandatory when Data Based On is Amount,"Unternehmen ist ein Pflichtfeld, wenn „Daten basierend auf“ auf Betrag steht"
+Company {0} does not exist or has no abbreviation,Unternehmen {0} existiert nicht oder hat kein Kürzel
+Company {0} does not match the company {1} of {2} {3},Unternehmen {0} stimmt nicht mit dem Unternehmen {1} von {2} {3} überein
+Company {0} is not in United Arab Emirates.,Unternehmen {0} befindet sich nicht in den Vereinigten Arabischen Emiraten.
+Compare with Previous Revision,Mit vorheriger Überarbeitung vergleichen
+Completion Date cannot be in the future,Das Fertigstellungsdatum darf nicht in der Zukunft liegen
+Completion Date is mandatory for a completed Asset Repair,Das Fertigstellungsdatum ist für eine abgeschlossene Vermögensgegenstand-Reparatur erforderlich
+Configure,Konfigurieren
+Connect mailbox,Postfach verbinden
+Connect MCP clients to {0}.,MCP-Clients mit {0} verbinden.
+Connected {0},{0} verbunden
+Continue to Transfer,Weiter zur Umlagerung
+Conversion Rate from {0} to {1} must be greater than zero.,Der Wechselkurs von {0} nach {1} muss größer als null sein.
+Conversion Rate must be greater than zero.,Der Wechselkurs muss größer als null sein.
+Cost Center Allocation {0} for {1} is already valid from {2},Die Kostenstellenzuordnung {0} für {1} ist bereits ab {2} gültig
+Cost Center {0} is a group cost center and cannot be used in an allocation,Kostenstelle {0} ist eine Gruppenkostenstelle und kann nicht in einer Zuordnung verwendet werden
+Cost Center {0} is disabled,Kostenstelle {0} ist deaktiviert
+Could not be created from:,Konnte nicht erstellt werden aus:
+Could not find a YouTube video ID in the URL,In der URL wurde keine YouTube-Video-ID gefunden
+Could not move asset {0} out of CWIP,Vermögensgegenstand {0} konnte nicht aus den Anlagen im Bau (CWIP) übernommen werden
+Could not prepare the PDF for printing. Try Download PDF.,Das PDF konnte nicht für den Druck vorbereitet werden. Versuchen Sie „PDF herunterladen“.
+Couldn't connect. Please try again.,Verbindung fehlgeschlagen. Bitte versuchen Sie es erneut.
+Create a record named after the file's value when the import runs.,"Beim Import einen Datensatz anlegen, der nach dem Wert aus der Datei benannt ist."
+Create BOMs,Stücklisten erstellen
+Create Contact,Kontakt erstellen
+Create Items for Parts Without an Item,Artikel für Teile ohne Artikel erstellen
+Create Missing Items,Fehlende Artikel erstellen
+Create Visit,Besuch erstellen
+Created {0},{0} erstellt
+Credit Manager,Kreditmanager
+CSS grid,CSS-Grid
+Currency must be {0} to match {1} {2},"Die Währung muss {0} sein, passend zu {1} {2}"
+Currency of Price List {0} cannot be changed because it has {1} Item Prices in {2}. Create a new Price List for {3} instead.,"Die Währung der Preisliste {0} kann nicht geändert werden, da sie {1} Artikelpreise in {2} enthält. Legen Sie stattdessen eine neue Preisliste für {3} an."
+Currency of the outstanding amount. Defaults to the Company currency.,Währung des ausstehenden Betrags. Standardmäßig die Unternehmenswährung.
+Current BOM and New BOM must have the same company and currency,Aktuelle Stückliste und neue Stückliste müssen dasselbe Unternehmen und dieselbe Währung haben
+Custom email,Eigene E-Mail
+Customer Group is mandatory to merge invoices based on Customer Group,"Die Kundengruppe ist erforderlich, um Rechnungen nach Kundengruppe zusammenzuführen"
+Customer Name is mandatory,Kundenname ist ein Pflichtfeld
+Customer {0} already exists for this Opportunity,Kunde {0} existiert für diese Chance bereits
+Customer {0} does not match the customer of Maintenance Schedule {1},Kunde {0} stimmt nicht mit dem Kunden des Wartungsplans {1} überein
+Customer {0} is not enrolled in a Loyalty Program,Kunde {0} ist in keinem Treueprogramm angemeldet
+Customers can be notified only for a submitted Delivery Trip,Kunden können nur bei einer gebuchten Auslieferungsfahrt benachrichtigt werden
+Days Since Last {0},Tage seit letztem/letzter {0}
+Default Common Code {0} does not belong to Code List {1},Der Standard-Gemeinsame-Code {0} gehört nicht zur Code-Liste {1}
+Default In-Transit Warehouse {0} must be a Transit ledger warehouse of Company {1},Das Standard-Durchgangslager {0} muss ein Transit-Lager des Unternehmens {1} sein
+Default Price List {0} is not applicable for {1},Die Standardpreisliste {0} ist für {1} nicht anwendbar
+"Default Quotation Validity Days must be a whole number of days, 0 or more.","Die Standard-Gültigkeitsdauer von Angeboten muss eine ganze Zahl von Tagen sein, 0 oder mehr."
+Defaults to the company's Stock Adjustment Account,Standardmäßig das Bestandskorrektur-Konto des Unternehmens
+"Deletes a company's transactions, keeping its masters.",Löscht die Transaktionen eines Unternehmens und behält die Stammdaten.
+Delivery Note {0} is cancelled,Lieferschein {0} ist storniert
+Delivery Note {0} is closed and cannot be invoiced,Lieferschein {0} ist geschlossen und kann nicht abgerechnet werden
+Delivery Notes are already on another Delivery Trip: {0},Die Lieferscheine sind bereits in einer anderen Auslieferungsfahrt: {0}
+Delivery Notes {0} do not belong to Company {1},Die Lieferscheine {0} gehören nicht zum Unternehmen {1}
+Design,Konstruktion
+Design File,Konstruktionsdatei
+Design file: {0},Konstruktionsdatei: {0}
+Design Name,Konstruktionsname
+Design Quantity,Konstruktionsmenge
+Design View,Konstruktionsansicht
+Difference Account {0} cannot be a Stock account,Das Differenzkonto {0} darf kein Bestandskonto sein
+Difference between the Stock Asset accounts balance and the Stock Balance value accepted while submitting,Beim Buchen akzeptierte Differenz zwischen dem Saldo der Bestandskonten und dem Lagerbestandswert
+Different Customer,Anderer Kunde
+Disabled Item Tax Template,Deaktivierte Artikelsteuervorlage
+Discount applied in the reference document currency.,Rabatt in der Währung des Referenzdokuments.
+Discount must be between 0 and 100,Der Rabatt muss zwischen 0 und 100 liegen
+Discount Removed,Rabatt entfernt
+Discounts Cannot Be Combined,Rabatte können nicht kombiniert werden
+Dispatch Attachment {0} must be a Print Format for Delivery Note,Versandanhang {0} muss ein Druckformat für Lieferschein sein
+Do you want to continue?,Möchten Sie fortfahren?
+Document Name,Dokumentenname
+Download CSV,CSV herunterladen
+Downtime overlaps with {0} for workstation {1},Die Ausfallzeit überschneidet sich mit {0} für Arbeitsplatz {1}
+Dunning {0} has already been settled through Dunning {1}.,Mahnung {0} wurde bereits durch Mahnung {1} erledigt.
+Each operation makes an item that a later operation can use. The last operation makes the finished good.,"Jeder Arbeitsgang erzeugt einen Artikel, den ein späterer Arbeitsgang verwenden kann. Der letzte Arbeitsgang erzeugt das Fertigerzeugnis."
+"Each operation produces its own output item and puts it in stock, for example Cut Sheet, then Painted Sheet, then the final Box.","Jeder Arbeitsgang erzeugt einen eigenen Ausgabeartikel und legt ihn auf Lager, zum Beispiel zugeschnittenes Blech, dann lackiertes Blech, dann die fertige Kiste."
+Edit in Full Page,Ganzseitig bearbeiten
+Emails customers their statements on a schedule.,Sendet Kunden ihre Kontoauszüge planmäßig per E-Mail.
+Empty uses the size in Print Settings. A receipt size prints one page as tall as the content.,"Leer bedeutet: Größe aus den Druckeinstellungen. Ein Bonformat druckt eine Seite, die so hoch ist wie der Inhalt."
+Enable Automatically Create New Batch when entering Opening Stock for a batched item.,"Aktivieren Sie „Automatisch neue Charge erstellen“, wenn Sie den Anfangsbestand für einen chargengeführten Artikel erfassen."
+Enable MCP,MCP aktivieren
+Enter the Incoming Rate (Costing) in the {0} Item table.,Geben Sie die Eingangsbewertung (Kalkulation) in der Artikeltabelle {0} ein.
+Every day from {0} to {1} is a holiday for Sales Person {2}.,Jeder Tag vom {0} bis {1} ist ein arbeitsfreier Tag für Verkäufer {2}.
+Every row of Item {0} in {1} {2} already has a Quality Inspection,Jede Zeile von Artikel {0} in {1} {2} hat bereits eine Qualitätsprüfung
+Excess Return,Überschüssige Rückgabe
+Exchange Journal Mismatch,Abweichung der Wechselkursbuchung
+Exchange journal {0} could not be matched to reconciliation journal {1}.,Die Wechselkursbuchung {0} konnte der Abgleichsbuchung {1} nicht zugeordnet werden.
+Exchange rate from {0} to {1} on {2} not found. Create a {3} record and run the report again.,Wechselkurs von {0} nach {1} am {2} nicht gefunden. Legen Sie einen Datensatz {3} an und führen Sie den Bericht erneut aus.
+Exchange Rate Missing,Wechselkurs fehlt
+Exchange Rate Not Found,Wechselkurs nicht gefunden
+Exclude from BOM,Aus Stückliste ausschließen
+Expected Value Based On,Erwarteter Wert basierend auf
+Failed to print {0} documents,{0} Dokumente konnten nicht gedruckt werden
+Feedback on your quality from a customer or employee.,Rückmeldung eines Kunden oder Mitarbeiters zu Ihrer Qualität.
+Finance Book {0} is not set on Asset {1},Finanzbuch {0} ist für Vermögensgegenstand {1} nicht festgelegt
+Finished Good Quantity,Fertigerzeugnis Menge
+Finished Good Quantity Exceeded,Fertigerzeugnis-Menge überschritten
+First Difference per Item-Warehouse,Erste Differenz je Artikel und Lager
+First Quarter,Erstes Quartal
+Fix Differences,Differenzen beheben
+Fix These Before Creating BOMs,Vor dem Erstellen der Stücklisten beheben
+Fix These Steps,Diese Schritte beheben
+"For more information, see {0}.",Weitere Informationen finden Sie unter {0}.
+For Warehouse {0} must be a non-group warehouse under {1}.,"Für Lager {0} muss ein Lager unter {1} sein, das keine Gruppe ist."
+Fourth Quarter,Viertes Quartal
+Frappe wasn't allowed to read and send your email. Sign in again and allow access to your mail.,Frappe durfte Ihre E-Mails nicht lesen und senden. Melden Sie sich erneut an und erlauben Sie den Zugriff auf Ihre E-Mails.
+"frappectl is a command-line client for Frappe sites, built for people and AI agents.","frappectl ist ein Kommandozeilen-Client für Frappe-Websites, gebaut für Menschen und KI-Agenten."
+from {0},von {0}
+Fulfilment terms cannot be added or removed after submission.,Erfüllungsbedingungen können nach dem Buchen nicht hinzugefügt oder entfernt werden.
+GL Balance (Account Currency),Hauptbuchsaldo (Kontowährung)
+Grand Total,Gesamtbetrag
+Grouped by {0},Gruppiert nach {0}
+Groups accounts into the lines your financial statements show.,"Fasst Konten zu den Zeilen zusammen, die Ihre Finanzberichte zeigen."
+Groups assets that share accounts and depreciation rules.,Fasst Vermögensgegenstände mit gemeinsamen Konten und Abschreibungsregeln zusammen.
+"Groups customers, for pricing and reporting.",Fasst Kunden für Preisgestaltung und Auswertungen zusammen.
+"Groups items, for pricing, defaults and reporting.","Fasst Artikel für Preisgestaltung, Standardwerte und Auswertungen zusammen."
+"Groups suppliers, for terms and reporting.",Fasst Lieferanten für Konditionen und Auswertungen zusammen.
+here,hier
+How fast issues must be answered and resolved.,Wie schnell Anfragen beantwortet und gelöst werden müssen.
+"How items, warehouses and stock transactions work.","Wie Artikel, Lager und Lagertransaktionen funktionieren."
+"How leads, opportunities and appointments work.","Wie Interessenten, Chancen und Termine funktionieren."
+How long it takes to get or make an item.,"Wie lange es dauert, einen Artikel zu beschaffen oder herzustellen."
+"How many of one unit make another, like 1000 g in a kg.","Wie viele Einheiten einer Maßeinheit eine andere ergeben, z. B. 1000 g in einem kg."
+How much a cost center or project may spend over a fiscal year.,Wie viel eine Kostenstelle oder ein Projekt in einem Geschäftsjahr ausgeben darf.
+How much faster an asset depreciates on a given shift.,Wie viel schneller ein Vermögensgegenstand in einer bestimmten Schicht abgeschrieben wird.
+"How much of each item to make, and when.",Wie viel von jedem Artikel wann hergestellt werden soll.
+"How much you expect to sell, to plan production.","Wie viel Sie voraussichtlich verkaufen, um die Produktion zu planen."
+"How quotations, sales orders and pricing work.","Wie Angebote, Aufträge und Preisgestaltung funktionieren."
+How to turn it on,So aktivieren Sie es
+How urgent an issue is.,Wie dringend eine Anfrage ist.
+Ignore Differences Below,Differenzen ignorieren unter
+"IMAP is turned off for this mailbox. In Yandex Mail settings, under Email clients, turn on IMAP and ""App passwords and OAuth tokens"".",IMAP ist für dieses Postfach deaktiviert. Aktivieren Sie in den Yandex-Mail-Einstellungen unter „E-Mail-Clients“ IMAP sowie „App-Passwörter und OAuth-Token“.
+"IMAP is turned off for this mailbox. Turn it on in Gmail settings under Forwarding and POP/IMAP, or ask your Google Workspace admin.",IMAP ist für dieses Postfach deaktiviert. Aktivieren Sie es in den Gmail-Einstellungen unter „Weiterleitung und POP/IMAP“ oder wenden Sie sich an Ihren Google-Workspace-Administrator.
+IMAP is turned off for this mailbox. Turn it on in Outlook settings or ask your admin.,IMAP ist für dieses Postfach deaktiviert. Aktivieren Sie es in den Outlook-Einstellungen oder wenden Sie sich an Ihren Administrator.
+IMAP is turned off for this mailbox. Turn it on in your mail settings or ask your admin.,IMAP ist für dieses Postfach deaktiviert. Aktivieren Sie es in Ihren E-Mail-Einstellungen oder wenden Sie sich an Ihren Administrator.
+Immutable Ledger Enabled,Unveränderliches Hauptbuch aktiviert
+Include Existing BOM,Bestehende Stückliste einbeziehen
+Include Item in Manufacturing,Artikel in Fertigung einbeziehen
+Include Items of Sub-Assemblies,Artikel von Unterbaugruppen einbeziehen
+Income Account is required to collect dunning fees or interest.,"Ein Ertragskonto ist erforderlich, um Mahngebühren oder Zinsen zu erheben."
+Incorrect Stock Entry,Fehlerhafte Lagerbuchung
+Increment must be greater than 0,Die Schrittweite muss größer als 0 sein
+Inside a used assembly,In einer verwendeten Baugruppe
+Install it:,Installation:
+Invalid 3D Model,Ungültiges 3D-Modell
+Invalid Accounts,Ungültige Konten
+Invalid BOM,Ungültige Stückliste
+Invalid Cashier,Ungültiger Kassierer
+Invalid Clearance Date,Ungültiges Abrechnungsdatum
+Invalid Company,Ungültiges Unternehmen
+Invalid currency: {0},Ungültige Währung: {0}
+Invalid Design File,Ungültige Konstruktionsdatei
+Invalid Item Selection,Ungültige Artikelauswahl
+Invalid or expired key,Ungültiger oder abgelaufener Schlüssel
+Invalid Parent Node,Ungültiger übergeordneter Knoten
+Invalid Parent Task,Ungültige übergeordnete Aufgabe
+Invalid Party,Ungültige Partei
+Invalid Party Type,Ungültiger Partei-Typ
+Invalid Project,Ungültiges Projekt
+Invalid sort order,Ungültige Sortierreihenfolge
+Invalid Supplier Group,Ungültige Lieferantengruppe
+Invalid Tax Row,Ungültige Steuerzeile
+Invalid transaction date,Ungültiges Transaktionsdatum
+Invalid Transaction Type,Ungültige Art der Transaktion
+Invalid UOM,Ungültige ME
+Invalid Voucher,Ungültiger Beleg
+Inventory Dimension {0} cannot be deleted as stock transactions exist against it,"Die Lagerbestandsdimension {0} kann nicht gelöscht werden, da Lagertransaktionen dazu existieren"
+Invite your team,Laden Sie Ihr Team ein
+Invoiced Amount (Excl. Tax),Rechnungsbetrag (ohne Steuern)
+Invoices {0} of this POS session are not in this POS Closing Entry. Create the POS Closing Entry again to include them.,"Die Rechnungen {0} dieser POS-Sitzung sind nicht in dieser POS-Abschlussbuchung enthalten. Erstellen Sie die POS-Abschlussbuchung erneut, um sie einzubeziehen."
+Inward Order Summary,Zusammenfassung der Eingangsaufträge
+Is Assembly,Ist Baugruppe
+Is Group,Ist Gruppe
+Is Rate of Depreciation Entered,Ist Abschreibungssatz eingegeben
+It has no stock transactions by then.,Bis dahin gibt es keine Lagertransaktionen.
+Item Group for New Items,Artikelgruppe für neue Artikel
+Item group of the items created from design parts.,Artikelgruppe der aus Konstruktionsteilen erstellten Artikel.
+Item image updated,Artikelbild aktualisiert
+Item Search Index needs SQLite {0} or later. This server has SQLite {1}.,Der Artikel-Suchindex benötigt SQLite {0} oder neuer. Dieser Server hat SQLite {1}.
+Item Tax Row {0}: Account {1} is a group account,Artikelsteuer-Zeile {0}: Konto {1} ist ein Gruppenkonto
+Item Tax Template {0} does not belong to Company {1},Artikelsteuervorlage {0} gehört nicht zum Unternehmen {1}
+Item Tax Template {0} is disabled,Artikelsteuervorlage {0} ist deaktiviert
+Item this step makes,Von diesem Schritt erzeugter Artikel
+Item {0} in Warehouse {1} cannot be adjusted on {2}: {3},Artikel {0} in Lager {1} kann am {2} nicht angepasst werden: {3}
+"Item {0} in Warehouse {1} was adjusted by {2} on {3}, so no stock transaction dated before it can be posted or cancelled. Post it on or after that date, or cancel the Adjustment Entry first.","Artikel {0} in Lager {1} wurde am {3} durch {2} angepasst, daher kann keine Lagertransaktion mit früherem Datum gebucht oder storniert werden. Buchen Sie sie an oder nach diesem Datum oder stornieren Sie zuerst die Anpassungsbuchung."
+Item {0} is already a component of Product Bundle {1}; nested bundles are not supported.,Artikel {0} ist bereits Bestandteil des Produkt-Bundles {1}; verschachtelte Bundles werden nicht unterstützt.
+Item {0} is missing from this disassembly. Get the items again.,Artikel {0} fehlt in dieser Demontage. Rufen Sie die Artikel erneut ab.
+Item {0} is not a row of {1} {2}.,Artikel {0} ist keine Zeile von {1} {2}.
+Item {0} is not a stock item.,Artikel {0} ist kein Lagerartikel.
+Item {0} is not part of the BOM {1} and cannot be added to this disassembly.,Artikel {0} ist nicht Teil der Stückliste {1} und kann dieser Demontage nicht hinzugefügt werden.
+Item {0} quantity ({1} in stock UOM) does not match the BOM quantity {2}.,Die Menge von Artikel {0} ({1} in Lagermaßeinheit) stimmt nicht mit der Stücklistenmenge {2} überein.
+"Item {0}: cannot return {1} to the store, Work Order {2} has only {3} of it left unconsumed.","Artikel {0}: {1} kann nicht ans Lager zurückgegeben werden, Arbeitsauftrag {2} hat davon nur noch {3} unverbraucht."
+Items received from a subcontractor.,Von einem Unterauftragnehmer erhaltene Artikel.
+Items received from a supplier.,Von einem Lieferanten erhaltene Artikel.
+Items shipped to a customer.,An einen Kunden versandte Artikel.
+Items To Be Delivered,Zu liefernde Artikel
+Items {0} are not Customer Provided Items,Artikel {0} sind keine vom Kunden beigestellten Artikel
+Its difference on {0} is not before the adjustment date.,Die Differenz am {0} liegt nicht vor dem Anpassungsdatum.
+Its stock qty and value are already right on this date.,Lagermenge und Wert sind zu diesem Datum bereits korrekt.
+"Its stock should be negative on this date, which cannot be counted in.",Der Bestand müsste zu diesem Datum negativ sein und kann daher nicht eingerechnet werden.
+January - February,Januar – Februar
+Job Card Required,Jobkarte erforderlich
+"Job Card {0} has no completed quantity yet. Click Start Job when the work begins, then click Complete Job and enter the quantity made. After that you can submit it.","Für Jobkarte {0} ist noch keine gefertigte Menge erfasst. Klicken Sie auf „Job starten“, wenn die Arbeit beginnt, dann auf „Auftrag abschließen“ und geben Sie die gefertigte Menge ein. Danach können Sie sie buchen."
+Job Card {0} is not for workstation {1},Jobkarte {0} gehört nicht zu Arbeitsplatz {1}
+Job Card {0} is not open,Jobkarte {0} ist nicht offen
+"Job Card {0}: Completed Qty and Process Loss of operation {1} add up to {2}, but the previous operation {3} completed only {4}. Reduce {5} to {6}.","Jobkarte {0}: Gefertigte Menge und Prozessverlust des Arbeitsgangs {1} ergeben zusammen {2}, der vorherige Arbeitsgang {3} hat aber nur {4} gefertigt. Reduzieren Sie {5} auf {6}."
+Job Not Done Yet,Job noch nicht erledigt
+Journal Entries are already created for Supplier {0},Für Lieferant {0} wurden bereits Buchungssätze erstellt
+July - August,Juli – August
+Last,Letzte
+Last Step,Letzter Schritt
+Last YouTube Update,Letzte YouTube-Aktualisierung
+Last {0} Amount,Letzter {0}-Betrag
+Last {0} Date,Letztes {0}-Datum
+Latitude must be between -90 and 90,Der Breitengrad muss zwischen -90 und 90 liegen
+Lead {0} is added more than once,Interessent {0} wurde mehrfach hinzugefügt
+Lead {0} is already converted to Customer {1},Interessent {0} wurde bereits in Kunde {1} umgewandelt
+Lead {0} is already in another Prospect,Interessent {0} ist bereits in einem anderen potenziellen Kunden enthalten
+Lead {0} is already in Prospect {1},Interessent {0} ist bereits in Potenzieller Kunde {1} enthalten
+Lead {0} is disabled. Enable it to create a new {1}.,"Interessent {0} ist deaktiviert. Aktivieren Sie ihn, um ein neues {1} zu erstellen."
+Loading 3D model...,3D-Modell wird geladen ...
+Longitude must be between -180 and 180,Der Längengrad muss zwischen -180 und 180 liegen
+Lost On,Verloren am
+Loyalty Points can be redeemed in a Payment Request only for Shopping Cart orders,Treuepunkte können in einer Zahlungsaufforderung nur für Warenkorb-Bestellungen eingelöst werden
+Loyalty Points to redeem must be greater than 0.,Die einzulösenden Treuepunkte müssen größer als 0 sein.
+Made from Stock Valuation Comparison,Aus dem Vergleich der Lagerbewertung erstellt
+Mailbox connected,Postfach verbunden
+Mailbox reconnected,Postfach erneut verbunden
+Maintenance Manager {0} must be a member of the team.,Leitung der Wartung {0} muss Mitglied des Teams sein.
+Make Adjustment Entry,Anpassungsbuchung erstellen
+Makes,Erzeugt
+Manufactured Qty ({0}) cannot be less than the Disassembled Qty ({1}) of Work Order {2}. Cancel the disassembly first.,Die produzierte Menge ({0}) darf nicht kleiner sein als die zerlegte Menge ({1}) von Arbeitsauftrag {2}. Stornieren Sie zuerst die Zerlegung.
+Map an item to these parts: {0},Diesen Teilen einen Artikel zuordnen: {0}
+Map Item,Artikel zuordnen
+Map Items,Artikel zuordnen
+Map the finished good to an item.,Ordnen Sie dem Fertigerzeugnis einen Artikel zu.
+Matched On,Abgeglichen am
+Matches payments to invoices in the background.,Gleicht Zahlungen im Hintergrund mit Rechnungen ab.
+Matching parts to items...,Teile werden Artikeln zugeordnet ...
+Material Request {0} is stopped,Materialanfrage {0} ist angehalten
+Materials row #{0},Materialien Zeile #{0}
+MCP Settings,MCP-Einstellungen
+Merge rows with the same account head in the ledger for Journal Entries and Payment Entries only.,Zeilen mit demselben Konto im Hauptbuch zusammenführen (nur für Buchungssätze und Zahlungen).
+"Merging is only possible if following properties are same in both records. Is Group, Root Type, Company, Account Currency and, for ledger accounts, Account Type","Das Zusammenführen ist nur möglich, wenn folgende Eigenschaften in beiden Datensätzen gleich sind: Ist Gruppe, Root-Typ, Unternehmen, Kontowährung und bei Sachkonten der Kontotyp"
+Message (if any),Nachricht (falls vorhanden)
+Microsoft doesn't let this Outlook.com mailbox send email from other apps. Please use a Microsoft 365 work mailbox.,Microsoft erlaubt bei diesem Outlook.com-Postfach keinen E-Mail-Versand aus anderen Apps. Bitte verwenden Sie ein geschäftliches Microsoft-365-Postfach.
+min,Min.
+Minimize,Minimieren
+Missing Account Types,Fehlende Kontotypen
+Missing Design Name,Fehlender Konstruktionsname
+Missing Disassembly Item,Fehlender Zerlegungsartikel
+Missing Invoices,Fehlende Rechnungen
+Missing Part,Fehlendes Teil
+Missing POS Fields,Fehlende POS-Felder
+Mode of Payment {0} is disabled.,Zahlungsweise {0} ist deaktiviert.
+Mode of Payment {0} is not allowed in POS Profile {1}.,Zahlungsweise {0} ist im Verkaufsstellen-Profil {1} nicht zulässig.
+"Money you received or paid, matched against invoices.","Erhaltene oder gezahlte Beträge, abgeglichen mit Rechnungen."
+More options,Weitere Optionen
+Move Materials,Material übertragen
+Move the raw materials to the Work In Progress warehouse {0} first. Click Move Materials on Job Card {1} and submit the Stock Entry it opens. Then click Start Job.,Übertragen Sie zuerst die Rohmaterialien in das Fertigungslager {0}. Klicken Sie auf Jobkarte {1} auf „Material übertragen“ und buchen Sie die geöffnete Lagerbuchung. Klicken Sie dann auf „Job starten“.
+Moves an asset to another location or person.,Verschiebt einen Vermögensgegenstand an einen anderen Standort oder zu einer anderen Person.
+"Moves, receives, issues or manufactures stock.","Bewegt, empfängt, entnimmt oder fertigt Lagerbestand."
+Multiple {0} records match {1}. Please select the Party ID.,Mehrere {0}-Datensätze passen zu {1}. Bitte wählen Sie die Partei-ID aus.
+"Must be positive. If the unit rate would change the opening amount through rounding, the invoice uses quantity 1 and records this quantity in the description.","Muss positiv sein. Würde der Einzelpreis den Eröffnungsbetrag durch Rundung verändern, verwendet die Rechnung die Menge 1 und vermerkt diese Menge in der Beschreibung."
+Name shown to AI clients. Defaults to the site's host name.,"Name, der KI-Clients angezeigt wird. Standardmäßig der Hostname der Website."
+Nested Product Bundle,Verschachteltes Produkt-Bundle
+Net change from Asset Value Adjustments,Nettoveränderung aus Anpassungen des Vermögenswerts
+Net Change in Other Balance Sheet Accounts,Nettoveränderung sonstiger Bilanzkonten
+New Asset Value cannot be negative,Der neue Vermögenswert darf nicht negativ sein
+New Asset Value is the same as the current asset value,Der neue Vermögenswert entspricht dem aktuellen Vermögenswert
+New BOM {0} must be submitted and active,Neue Stückliste {0} muss gebucht und aktiv sein
+New Revision,Neue Revision
+New Template,Neue Vorlage
+No active Subcontracting BOM found for Finished Good {0}. Please select the Service Item manually for these rows.,Für Fertigerzeugnis {0} wurde keine aktive Stückliste für Untervergabe gefunden. Bitte wählen Sie den Dienstleistungsartikel für diese Zeilen manuell aus.
+No Available Purchase Row,Keine verfügbare Einkaufszeile
+No Credit Note was created because the returned items were not invoiced,"Es wurde keine Gutschrift erstellt, da die zurückgegebenen Artikel nicht in Rechnung gestellt wurden"
+No Customer Group,Keine Kundengruppe
+No New Notifications,Keine neuen Benachrichtigungen
+No open Sales Orders found for this Sales Forecast's items. Use {0} to see the forecasted demand.,"Für die Artikel dieser Absatzprognose wurden keine offenen Aufträge gefunden. Verwenden Sie {0}, um den prognostizierten Bedarf anzuzeigen."
+No raw materials,Keine Rohmaterialien
+No records,Keine Datensätze
+Node,Knoten
+Node of the assembly this part goes into. 0 means the finished good.,"Knoten der Baugruppe, in die dieses Teil eingeht. 0 steht für das Fertigerzeugnis."
+Node of the design part. 0 means the finished good.,Knoten des Konstruktionsteils. 0 steht für das Fertigerzeugnis.
+"None of the columns in your file match {0}. Check that it is the right file; if it is, map its columns to {0} fields in the next step.","Keine der Spalten in Ihrer Datei passt zu {0}. Prüfen Sie, ob es die richtige Datei ist; falls ja, ordnen Sie ihre Spalten im nächsten Schritt den Feldern von {0} zu."
+Not Allowed Purpose,Unzulässiger Zweck
+Not Enough Stock,Nicht genügend Bestand
+Not made in the Print Format Editor,Nicht im Druckformat-Editor erstellt
+Not Mapped,Nicht zugeordnet
+Not permitted to view Contact {0},"Keine Berechtigung, Kontakt {0} anzuzeigen"
+Number of days after the invoice due date before canceling the subscription or marking it as unpaid,"Anzahl der Tage nach dem Fälligkeitsdatum der Rechnung, bevor das Abonnement gekündigt oder als unbezahlt markiert wird"
+Number of periods must be greater than zero,Die Anzahl der Perioden muss größer als null sein
+Number of {0}s,Anzahl {0}
+Numeric Values cannot be changed for Attribute {0} as it is used in variants,"Numerische Werte können für Attribut {0} nicht geändert werden, da es in Varianten verwendet wird"
+October - November,Oktober – November
+Ongoing,Laufend
+Only a POS Closing Entry with status Failed can be retried,Nur eine POS-Abschlussbuchung mit dem Status „Fehlgeschlagen“ kann erneut versucht werden
+Only a submitted Delivery Note can be closed or reopened,Nur ein gebuchter Lieferschein kann geschlossen oder wiedereröffnet werden
+"Only a submitted Purchase Order can be held, closed or re-opened.","Nur eine gebuchte Bestellung kann angehalten, geschlossen oder wiedereröffnet werden."
+Only a submitted Purchase Receipt can be closed or reopened,Nur ein gebuchter Eingangsbeleg kann geschlossen oder wiedereröffnet werden
+Only a submitted Quotation can be set as Lost.,Nur ein gebuchtes Angebot kann als verloren markiert werden.
+Only a submitted Repost Item Valuation with status Failed can be restarted,Nur ein gebuchter Vorgang „Artikelbewertung neu buchen“ mit dem Status „Fehlgeschlagen“ kann neu gestartet werden
+"Only a submitted Sales Order can be put On Hold, Closed or re-opened","Nur ein gebuchter Auftrag kann zurückgestellt, geschlossen oder wiedereröffnet werden"
+Only a submitted Subcontracting Inward Order can be closed or re-opened.,Nur eine gebuchte Fremdvergabe-Eingangsbestellung kann geschlossen oder wiedereröffnet werden.
+Only a submitted Subcontracting Order can be closed or re-opened.,Nur ein gebuchter Unterauftrag kann geschlossen oder wiedereröffnet werden.
+"Only a submitted Work Order can be closed, stopped or resumed","Nur ein gebuchter Arbeitsauftrag kann geschlossen, angehalten oder fortgesetzt werden"
+Only an Asset Repair with Repair Status Completed can be submitted.,Nur eine Vermögensgegenstand-Reparatur mit dem Reparaturstatus „Abgeschlossen“ kann gebucht werden.
+"Only members of this site's Frappe Cloud team can connect a mailbox. Log in to Frappe Cloud in this browser, then try again.",Nur Mitglieder des Frappe-Cloud-Teams dieser Website können ein Postfach verbinden. Melden Sie sich in diesem Browser bei Frappe Cloud an und versuchen Sie es dann erneut.
+"Only one step can be the Last Step, but it is ticked on steps {0}.","Nur ein Schritt kann der letzte Schritt sein, er ist aber bei den Schritten {0} angehakt."
+Only stock items can be forecast: {0},Nur Lagerartikel können prognostiziert werden: {0}
+Only system users can fetch exchange rates from an external provider.,Nur Systembenutzer können Wechselkurse von einem externen Anbieter abrufen.
+"Only works for Purchase Receipt, Purchase Invoice with Update Stock and Stock Entry with no row that has both a Source and Target Warehouse","Funktioniert nur für Eingangsbelege, Eingangsrechnungen mit „Lagerbestand aktualisieren“ und Lagerbuchungen ohne Zeile, die sowohl ein Ausgangs- als auch ein Eingangslager hat"
+Only {0} Loyalty Points of Customer {1} are free. The other points are used in open Shopping Cart orders.,Nur {0} Treuepunkte von Kunde {1} sind frei. Die übrigen Punkte werden in offenen Warenkorb-Bestellungen verwendet.
+Only {0} {1} of {2} is pending to request in Job Card {3}.,In Jobkarte {3} sind nur noch {0} {1} von {2} anzufordern.
+Open a design with a STEP file to place parts in the model.,"Öffnen Sie eine Konstruktion mit einer STEP-Datei, um Teile im Modell zu platzieren."
+Open Gmail settings,Gmail-Einstellungen öffnen
+Open in Desk,Im Desk öffnen
+Open Yandex Mail settings,Yandex-Mail-Einstellungen öffnen
+Opening Accumulated Depreciation must be less than or equal to {0},Die kumulierten Abschreibungen zu Beginn müssen kleiner oder gleich {0} sein
+Opens a POS shift with the cash in the drawer.,Eröffnet eine Kassenschicht mit dem Bargeld in der Kassenschublade.
+Operation Name,Name des Arbeitsgangs
+Operation of the routing that uses this material.,"Arbeitsgang der Ablaufplanung, der dieses Material verwendet."
+Operation Time (Minutes),Dauer des Arbeitsgangs (Minuten)
+"Operation {0} has already completed or lost {1}, more than the {2} that operation {3} would have. Cancel the Job Cards of operation {0} first.","Arbeitsgang {0} hat bereits {1} gefertigt oder verloren, mehr als die {2}, die Arbeitsgang {3} hätte. Stornieren Sie zuerst die Jobkarten von Arbeitsgang {0}."
+Operations row #{0},Arbeitsgänge Zeile #{0}
+Opportunity From must be one of {0},„Chance von“ muss einer der folgenden Werte sein: {0}
+Opportunity {0} is already for a Customer,Chance {0} ist bereits einem Kunden zugeordnet
+Original Quantity: {0},Ursprüngliche Menge: {0}
+Output Item,Ausgabeartikel
+Output Item BOM,Stückliste des Ausgabeartikels
+Output Item not set,Ausgabeartikel nicht festgelegt
+Output Node,Ausgabeknoten
+Output of Operation ID,Ausgabe von Arbeitsgang-ID
+Output of {0},Ausgabe von {0}
+Output Qty,Ausgabemenge
+Output Quantity,Ausgabemenge
+Overlapping Slabs,Überlappende Staffeln
+Own BOM,Eigene Stückliste
+Packing Slip cannot be cancelled as Delivery Note {0} is already submitted.,"Packzettel kann nicht storniert werden, da Lieferschein {0} bereits gebucht ist."
+Page background,Seitenhintergrund
+Paper Size,Papierformat
+Paper size,Papierformat
+Parent Cost Center must belong to the same Company,Die übergeordnete Kostenstelle muss zum selben Unternehmen gehören
+Parent Node,Übergeordneter Knoten
+Parent Step Branch,Übergeordneter Schrittzweig
+Parent Task {0} is not in Project {1}. Pick a group task of the same project.,Übergeordnete Aufgabe {0} gehört nicht zu Projekt {1}. Wählen Sie eine Gruppenaufgabe desselben Projekts.
+Parent Warehouse {0} must be a group warehouse of Company {1},Übergeordnetes Lager {0} muss ein Gruppenlager von Unternehmen {1} sein
+Parent Warehouse {0} must be a group warehouse of company {1},Übergeordnetes Lager {0} muss ein Gruppenlager von Unternehmen {1} sein
+Part,Teil
+Part Name,Teilename
+Part Node,Teileknoten
+Part Number,Teilenummer
+Part number of the top assembly in the design file.,Teilenummer der obersten Baugruppe in der Konstruktionsdatei.
+Part {0} is inside its own assembly.,Teil {0} befindet sich in seiner eigenen Baugruppe.
+"Part {0} is mapped to item {1}, which is also its own assembly.","Teil {0} ist Artikel {1} zugeordnet, der zugleich seine eigene Baugruppe ist."
+Part {0} was removed because its assembly is not in the new design file.,"Teil {0} wurde entfernt, da seine Baugruppe nicht in der neuen Konstruktionsdatei enthalten ist."
+Parts,Teile
+Parts from the submitted design file cannot be removed: {0},Teile aus der gebuchten Konstruktionsdatei können nicht entfernt werden: {0}
+Parts Not Used in Any BOM,In keiner Stückliste verwendete Teile
+Parts used directly,Direkt verwendete Teile
+Parts Without an Item,Teile ohne Artikel
+Parts {0} and {1} in the same assembly are mapped to item {2}.,Die Teile {0} und {1} in derselben Baugruppe sind Artikel {2} zugeordnet.
+Party Type {0} is not valid for {1} {2},Partei-Typ {0} ist für {1} {2} nicht gültig
+Payment amount must be greater than 0.,Der Zahlungsbetrag muss größer als 0 sein.
+Payment Ledger Balance (Account Currency),Saldo im Zahlungsbuch (Kontowährung)
+Payment Term Discount,Skonto aus Zahlungsbedingung
+Payment Term Discounts Calculated,Skonto aus Zahlungsbedingungen berechnet
+PDF Generator set to Chromium: {0},PDF-Generator auf Chromium gesetzt: {0}
+Pending Qty {0} cannot be more than the {1} left after the Total Completed Qty,"Ausstehende Menge {0} darf nicht größer sein als die {1}, die nach der gesamt abgeschlossenen Menge übrig bleiben"
+Pending Repost,Ausstehendes Neubuchen
+Period,Periode
+Period Closing Voucher {0} has already been processed,Periodenabschlussbeleg {0} wurde bereits verarbeitet
+Period Closing Voucher {0} has GL Entry Processing Status {1}. Complete or cancel it before closing the next period.,"Periodenabschlussbeleg {0} hat den Verarbeitungsstatus der Hauptbuchbuchungen {1}. Schließen Sie ihn ab oder stornieren Sie ihn, bevor Sie die nächste Periode abschließen."
+Period Closing Voucher {0} must be submitted before processing,Periodenabschlussbeleg {0} muss vor der Verarbeitung gebucht werden
+Pick a BOM to copy its raw materials into this step. Leave it empty to add the raw materials yourself with Add Raw Materials.,"Wählen Sie eine Stückliste, um deren Rohmaterialien in diesen Schritt zu übernehmen. Lassen Sie das Feld leer, um die Rohmaterialien selbst über „Rohmaterialien hinzufügen“ zu erfassen."
+"Picks the right tax template for a customer, supplier or address.","Wählt die passende Steuervorlage für einen Kunden, Lieferanten oder eine Adresse."
+Pickup Date cannot be before today,Das Abholdatum darf nicht vor dem heutigen Tag liegen
+Place in Model ({0} of {1} placed),Im Modell platzieren ({0} von {1} platziert)
+Placements in Model,Platzierungen im Modell
+Plaid transaction {0} could not be imported,Plaid-Transaktion {0} konnte nicht importiert werden
+Planned visits to service what a customer bought.,"Geplante Besuche zur Wartung dessen, was ein Kunde gekauft hat."
+Plans the work orders and materials needed for your demand.,Plant die für Ihren Bedarf benötigten Arbeitsaufträge und Materialien.
+Play video,Video abspielen
+Please add accounts for the following Account Types: {0},Bitte fügen Sie Konten für die folgenden Kontotypen hinzu: {0}
+Please attach a CSV file to rename,Bitte hängen Sie eine CSV-Datei zum Umbenennen an
+"Please delete Item Lead Time {0}, before merging {1} into {2}","Bitte löschen Sie Artikel-Vorlaufzeit {0}, bevor Sie {1} mit {2} zusammenführen"
+Please enter Account Name for every row in the uploaded template,Bitte geben Sie in jeder Zeile der hochgeladenen Vorlage einen Kontonamen ein
+Please save the document before creating or updating the Print Format.,"Bitte speichern Sie das Dokument, bevor Sie das Druckformat erstellen oder aktualisieren."
+Please select a Task,Bitte wählen Sie eine Aufgabe aus
+Please select at least one Lost Reason,Bitte wählen Sie mindestens einen Grund für Verlust aus
+Please set a default Asset Shift Factor to use shift based depreciation.,"Bitte legen Sie einen Standard-Sachanlagen-Schichtfaktor fest, um die schichtbasierte Abschreibung zu verwenden."
+Please set a VAT ID / Tax ID in Company {0},Bitte hinterlegen Sie eine USt-IdNr. / Steuernummer im Unternehmen {0}
+PlutoPrint (light),PlutoPrint (leicht)
+PlutoPrint is not installed on this server,PlutoPrint ist auf diesem Server nicht installiert
+PlutoPrint renderer unavailable,PlutoPrint-Renderer nicht verfügbar
+Points a customer earned or spent under a loyalty program.,"Punkte, die ein Kunde in einem Treueprogramm gesammelt oder eingelöst hat."
+Preparing PDF...,PDF wird vorbereitet...
+Previous Depreciation Schedule,Vorheriger Abschreibungsplan
+Previous period is not closed. Close the period from {0} first.,Die vorherige Periode ist nicht abgeschlossen. Schließen Sie die Periode zuerst über {0} ab.
+Previous Quantity,Vorherige Menge
+Previous Revision,Vorherige Revision
+Price List {0} cannot be used in {1},Preisliste {0} kann nicht in {1} verwendet werden
+Price List {0} is not applicable for country {1},Preisliste {0} gilt nicht für Land {1}
+"Price List {0} is the default in {1}, so it must stay applicable for {2}",Preisliste {0} ist der Standard in {1} und muss daher für {2} gültig bleiben
+Price UOM,Preis-ME
+Prices a supplier offered you.,"Preise, die Ihnen ein Lieferant angeboten hat."
+Prices you offer a customer or lead.,"Preise, die Sie einem Kunden oder Interessenten anbieten."
+Pricing Rule Removed,Preisregel entfernt
+Print Format Conflict,Druckformat-Konflikt
+Print Format Creation,Druckformat-Erstellung
+Print Format Editor,Druckformat-Editor
+Print Format {0} already exists and could not be identified as generated by this template. Rename the existing Print Format before continuing.,"Druckformat {0} existiert bereits und konnte nicht als von dieser Vorlage erzeugt erkannt werden. Benennen Sie das vorhandene Druckformat um, bevor Sie fortfahren."
+Print Format {0} is not valid for {1},Druckformat {0} ist für {1} nicht gültig
+Print Preview,Druckvorschau
+Print the PDF,PDF drucken
+Process Period Closing Voucher must be submitted before processing,„Periodenabschlussbeleg verarbeiten“ muss vor der Verarbeitung gebucht werden
+Produce Item per Operation,Artikel je Arbeitsgang fertigen
+Production Plan {0} is {1},Produktionsplan {0} ist {1}
+Progress % for a task must be between 0 and 100.,Der Fortschritt in % einer Aufgabe muss zwischen 0 und 100 liegen.
+Project Template {0} is disabled,Projektvorlage {0} ist deaktiviert
+Project {0} is only {1} complete. Complete or cancel its tasks first.,Projekt {0} ist erst zu {1} abgeschlossen. Schließen Sie zuerst die Aufgaben ab oder stornieren Sie sie.
+Prospect Name,Name des potenziellen Kunden
+Prospect {0} is already converted to a Customer,Potenzieller Kunde {0} wurde bereits in einen Kunden umgewandelt
+Prospect {0} is already converted to Customer {1},Potenzieller Kunde {0} wurde bereits in Kunde {1} umgewandelt
+Purchase Invoice,Eingangsrechnung
+Purchase Order Required for Purchase Invoice & Receipt Creation,Bestellung für die Erstellung von Eingangsrechnung und Eingangsbeleg erforderlich
+"Purchase Orders {0} have different currencies, taxes or discounts, so they cannot share one Purchase Receipt. Make one Subcontracting Receipt for each Purchase Order.","Die Bestellungen {0} haben unterschiedliche Währungen, Steuern oder Rabatte und können daher keinen gemeinsamen Eingangsbeleg haben. Erstellen Sie für jede Bestellung einen eigenen Unterauftragsbeleg."
+Purchase Receipt Required for Purchase Invoice Creation,Eingangsbeleg für die Erstellung der Eingangsrechnung erforderlich
+Purchase Receipt {0} is already made against Subcontracting Receipt {1},Eingangsbeleg {0} wurde bereits zu Unterauftragsbeleg {1} erstellt
+Purchase Receipt {0} is closed and cannot be invoiced,Eingangsbeleg {0} ist geschlossen und kann nicht abgerechnet werden
+Quality Inspection {0} is used by {1} {2}. Cancel {2} first.,Qualitätsprüfung {0} wird von {1} {2} verwendet. Stornieren Sie zuerst {2}.
+Quantity Changed,Menge geändert
+Quantity from the design file.,Menge aus der Konstruktionsdatei.
+Quantity of the finished good the BOM is made for,"Menge des Fertigerzeugnisses, für die die Stückliste erstellt ist"
+Quantity of the output item this operation makes for the whole Work Order,"Menge des Ausgabeartikels, die dieser Arbeitsgang für den gesamten Arbeitsauftrag fertigt"
+Raise money against unpaid sales invoices.,Liquidität gegen unbezahlte Ausgangsrechnungen beschaffen.
+Rate must be at least 0 and less than 100,Der Satz muss mindestens 0 und kleiner als 100 sein
+Rates a supplier over time on criteria you choose.,Bewertet einen Lieferanten im Zeitverlauf nach von Ihnen gewählten Kriterien.
+"Rates and thresholds for tax withheld on payments, like TDS.","Sätze und Schwellenwerte für den Steuereinbehalt bei Zahlungen, z. B. TDS."
+Raw Materials Not Linked to an Operation,Nicht mit einem Arbeitsgang verknüpfte Rohmaterialien
+Raw Materials Not Moved,Nicht übertragene Rohmaterialien
+Raw Materials To Be Received,Zu erhaltende Rohmaterialien
+Reassign the maintenance tasks of {0} before removing them from the team.,"Weisen Sie die Wartungsaufgaben von {0} neu zu, bevor Sie die Person aus dem Team entfernen."
+Rebuilds the ledger entries of transactions that were posted wrongly.,Erstellt die Buchungen von falsch gebuchten Transaktionen neu.
+Rebuilds the payment ledger so outstanding amounts are right again.,"Erstellt das Zahlungsbuch neu, damit die ausstehenden Beträge wieder stimmen."
+"Recalculate Valuation Rate is only allowed for a Purchase Receipt, a Purchase Invoice with Update Stock or a Stock Entry with no row that has both a Source and Target Warehouse","Wertansatz neu berechnen ist nur für einen Eingangsbeleg, eine Eingangsrechnung mit „Lagerbestand aktualisieren“ oder eine Lagerbuchung ohne Zeile mit sowohl Ausgangs- als auch Eingangslager zulässig"
+Recalculates stock values after a backdated change.,Berechnet die Lagerwerte nach einer rückdatierten Änderung neu.
+Receipt 58 mm,Bon 58 mm
+Receipt 80 mm,Bon 80 mm
+Receipt Document Type {0} is not supported,Belegart {0} des Eingangsbelegs wird nicht unterstützt
+Reconnect,Erneut verbinden
+Reconnected {0},{0} erneut verbunden
+Record Output,Ausbringung erfassen
+Remove Existing BOM,Vorhandene Stückliste entfernen
+Remove from BOM,Aus Stückliste entfernen
+Remove Operation,Arbeitsgang entfernen
+Rename Tool: {0} of {1} {2} rows could not be renamed,Werkzeug zum Umbenennen: {0} von {1} {2}-Zeilen konnten nicht umbenannt werden
+"Replace a BOM everywhere it is used, or update the cost of all BOMs.","Eine Stückliste überall dort ersetzen, wo sie verwendet wird, oder die Kosten aller Stücklisten aktualisieren."
+Report generation failed,Berichterstellung fehlgeschlagen
+Report generation failed {0},Berichterstellung fehlgeschlagen {0}
+Report {0} failed to generate.,Bericht {0} konnte nicht erstellt werden.
+Report {0} is ready.,Bericht {0} ist fertig.
+Reports,Berichte
+Repost Item Valuation will be made for:,Artikelbewertung neu buchen wird durchgeführt für:
+Repost {0} is already pending.,Neubuchung {0} steht bereits aus.
+Reposting could not be queued for:,Neubuchung konnte nicht eingereiht werden für:
+Reposting has been queued for:,Neubuchung wurde eingereiht für:
+Reposting will start within the timeslot configured in {0},Die Neubuchung beginnt innerhalb des in {0} konfigurierten Zeitfensters
+Request Missing Materials,Fehlende Materialien anfordern
+Requested Quantity,Angeforderte Menge
+Requires approval for transactions above a limit.,Erfordert eine Genehmigung für Transaktionen oberhalb eines Grenzwerts.
+Reserved Quantity for Production Plan,Reservierte Menge für Produktionsplan
+Reserved Quantity for Subcontracting,Reservierte Menge für Untervergabe
+Restates foreign currency balances at today's exchange rate.,Bewertet Fremdwährungssalden zum heutigen Wechselkurs neu.
+Returned exchange rate must be a positive finite number.,"Der zurückgegebene Wechselkurs muss eine positive, endliche Zahl sein."
+Revisions,Revisionen
+Rewards customers with points they can spend on later purchases.,"Belohnt Kunden mit Punkten, die sie bei späteren Käufen einlösen können."
+Role Allowed to Close Books & Make Changes to Closed Periods,"Rolle, die Bücher abschließen und Änderungen in geschlossenen Zeiträumen vornehmen darf"
+Rotate,Drehen
+Route {0} is already used by another Sales Partner. Please choose another route.,Route {0} wird bereits von einem anderen Vertriebspartner verwendet. Bitte wählen Sie eine andere Route.
+Routing Required,Ablaufplanung erforderlich
+Routing {0} is disabled,Ablaufplanung {0} ist deaktiviert
+"Row # {0}: Cannot return {1}, only {2} {3} of its component {4} is left to return","Zeile #{0}: {1} kann nicht zurückgegeben werden, von seiner Komponente {4} sind nur noch {2} {3} zur Rückgabe übrig"
+Row #{0}: A Product Bundle cannot contain its own parent Item {1}.,Zeile #{0}: Ein Produkt-Bundle kann nicht seinen eigenen übergeordneten Artikel {1} enthalten.
+Row #{0}: Acceptance Criteria Formula is required for parameter {1},Zeile #{0}: Akzeptanzkriterien Formel ist für Parameter {1} erforderlich
+Row #{0}: Acceptance Criteria Value is required for parameter {1},Zeile #{0}: Akzeptanzkriterien Wert ist für Parameter {1} erforderlich
+Row #{0}: Account is mandatory,Zeile #{0}: Konto ist obligatorisch
+Row #{0}: Account {1} is a group account,Zeile #{0}: Konto {1} ist ein Gruppenkonto
+Row #{0}: Account {1} is a group account.,Zeile #{0}: Konto {1} ist ein Gruppenkonto.
+Row #{0}: Account {1} is added more than once,Zeile #{0}: Konto {1} wurde mehr als einmal hinzugefügt
+Row #{0}: Account {1} is disabled.,Zeile #{0}: Konto {1} ist deaktiviert.
+Row #{0}: Account {1} must be an Expense ledger account of company {2},Zeile #{0}: Konto {1} muss ein Aufwandskonto (Buchungskonto) des Unternehmens {2} sein
+Row #{0}: Asset {1} cannot be sold before its last depreciation entry dated {2},Zeile #{0}: Vermögensgegenstand {1} kann nicht vor seiner letzten Abschreibungsbuchung vom {2} verkauft werden
+Row #{0}: Asset {1} is already added in another row,Zeile #{0}: Vermögensgegenstand {1} wurde bereits in einer anderen Zeile hinzugefügt
+Row #{0}: Asset {1} must be submitted,Zeile #{0}: Vermögensgegenstand {1} muss gebucht sein
+"Row #{0}: attach the 3D model as a STEP, STL or GLB file.","Zeile #{0}: Hängen Sie das 3D-Modell als STEP-, STL- oder GLB-Datei an."
+"Row #{0}: BOM {1} is not an active, submitted BOM of item {2}.","Zeile #{0}: Stückliste {1} ist keine aktive, gebuchte Stückliste des Artikels {2}."
+Row #{0}: Cannot change the UOM or conversion factor of Item {1} after part of it was received or delivered.,"Zeile #{0}: Die ME oder der Umrechnungsfaktor von Artikel {1} kann nicht geändert werden, nachdem ein Teil davon empfangen oder geliefert wurde."
+"Row #{0}: Cannot return {1} of Batch {2}, only {3} was delivered and not returned yet.","Zeile #{0}: {1} von Charge {2} kann nicht zurückgegeben werden, nur {3} wurde geliefert und noch nicht zurückgegeben."
+Row #{0}: Cannot set quantity less than delivered and reserved quantity. Unreserve stock before reducing the quantity.,"Zeile #{0}: Die Menge kann nicht kleiner als die gelieferte und reservierte Menge sein. Heben Sie die Reservierung des Lagerbestands auf, bevor Sie die Menge verringern."
+Row #{0}: Commission Rate must be between 0 and 100,Zeile #{0}: Der Provisionssatz muss zwischen 0 und 100 liegen
+Row #{0}: Company {1} already has an expense account,Zeile #{0}: Unternehmen {1} hat bereits ein Aufwandskonto
+Row #{0}: Consumed Asset {1} cannot be capitalized before its last depreciation entry dated {2},Zeile #{0}: Verbrauchter Vermögensgegenstand {1} kann nicht vor seiner letzten Abschreibungsbuchung vom {2} aktiviert werden
+Row #{0}: Consumed Asset {1} is added more than once,Zeile #{0}: Verbrauchter Vermögensgegenstand {1} wurde mehr als einmal hinzugefügt
+Row #{0}: Contact {1} does not belong to Customer {2},Zeile #{0}: Kontakt {1} gehört nicht zu Kunde {2}
+Row #{0}: Contribution (%) must be between 0 and 100,Zeile #{0}: Beitrag (%) muss zwischen 0 und 100 liegen
+Row #{0}: Customer {1} of POS Invoice {2} is not in Customer Group {3},Zeile #{0}: Kunde {1} der POS-Rechnung {2} gehört nicht zur Kundengruppe {3}
+Row #{0}: Default Inventory Account {1} must be a Stock account that is not a group.,"Zeile #{0}: Standard Inventurkonto {1} muss ein Lagerkonto sein, das keine Gruppe ist."
+Row #{0}: Delivery Date {1} cannot be before From Date {2},Zeile #{0}: Liefertermin {1} darf nicht vor dem Von-Datum {2} liegen
+Row #{0}: Delivery Note Item does not belong to Delivery Note {1},Zeile #{0}: Lieferscheinposition gehört nicht zu Lieferschein {1}
+Row #{0}: Delivery Note {1} belongs to Customer {2},Zeile #{0}: Lieferschein {1} gehört zu Kunde {2}
+Row #{0}: Delivery Note {1} is added more than once,Zeile #{0}: Lieferschein {1} wurde mehr als einmal hinzugefügt
+Row #{0}: Delivery Note {1} is already in Shipment {2},Zeile #{0}: Lieferschein {1} ist bereits in Sendung {2} enthalten
+Row #{0}: Delivery Note {1} must be submitted,Zeile #{0}: Lieferschein {1} muss gebucht sein
+"Row #{0}: Delivery Note {1} was created from Sales Invoice {2}, which already bills it","Zeile #{0}: Lieferschein {1} wurde aus Ausgangsrechnung {2} erstellt, die ihn bereits abrechnet"
+Row #{0}: Demand Qty is mandatory,Zeile #{0}: Bedarfsmenge ist obligatorisch
+Row #{0}: Depreciation Amount must be greater than zero,Zeile #{0}: Der Abschreibungsbetrag muss größer als null sein
+Row #{0}: Due Date must match the {1}.,Zeile #{0}: Das Fälligkeitsdatum muss mit {1} übereinstimmen.
+Row #{0}: Dunning charges must have a negative deduction amount.,Zeile #{0}: Mahngebühren müssen einen negativen Abzugsbetrag haben.
+Row #{0}: Dunning charges must use the income account {1} configured on Dunning {2}.,Zeile #{0}: Mahngebühren müssen das in Mahnung {2} konfigurierte Ertragskonto {1} verwenden.
+Row #{0}: Dunning charges require a Receive payment from a Customer.,Zeile #{0}: Mahngebühren erfordern einen Zahlungseingang von einem Kunden.
+Row #{0}: Dunning {1} belongs to a different company.,Zeile #{0}: Mahnung {1} gehört zu einem anderen Unternehmen.
+Row #{0}: Dunning {1} belongs to a different customer.,Zeile #{0}: Mahnung {1} gehört zu einem anderen Kunden.
+Row #{0}: Dunning {1} must be submitted.,Zeile #{0}: Mahnung {1} muss gebucht sein.
+Row #{0}: Either Target Qty or Target Amount is mandatory,Zeile #{0}: Entweder Zielmenge oder Zielbetrag ist obligatorisch
+Row #{0}: Installation can only be recorded against a submitted Delivery Note,Zeile #{0}: Eine Installation kann nur gegen einen gebuchten Lieferschein erfasst werden
+Row #{0}: Item {1} does not match item {2} sent by {3}.,Zeile #{0}: Artikel {1} stimmt nicht mit dem von {3} gesendeten Artikel {2} überein.
+Row #{0}: Item {1} does not match the item of its schedule row,Zeile #{0}: Artikel {1} stimmt nicht mit dem Artikel seiner Planzeile überein
+Row #{0}: Item {1} has Operation {2}. Set a Routing to create BOMs with operations.,"Zeile #{0}: Artikel {1} hat den Arbeitsgang {2}. Legen Sie eine Ablaufplanung fest, um Stücklisten mit Arbeitsgängen zu erstellen."
+Row #{0}: Item {1} is not an alternative of Item {2},Zeile #{0}: Artikel {1} ist keine Alternative zu Artikel {2}
+Row #{0}: Item {1} is transferred more than the {2} picked in {3}.,Zeile #{0}: Von Artikel {1} wird mehr übertragen als die in {3} kommissionierten {2}.
+Row #{0}: Item {1} must be a stock item with Supply Raw Materials for Purchase enabled for a Subcontracting Material Request,Zeile #{0}: Artikel {1} muss für eine Materialanfrage zur Untervergabe ein Lagerartikel mit aktiviertem „Rohmaterialien für Einkauf bereitstellen“ sein
+"Row #{0}: Item {1} must be taken from {2}, where {3} sent it.","Zeile #{0}: Artikel {1} muss aus {2} entnommen werden, wohin {3} ihn gesendet hat."
+"Row #{0}: Item {1} was picked from {2}, not {3}.","Zeile #{0}: Artikel {1} wurde aus {2} kommissioniert, nicht aus {3}."
+Row #{0}: Minimum Value cannot be greater than Maximum Value for parameter {1},Zeile #{0}: Der Minimalwert darf für Parameter {1} nicht größer als der Maximalwert sein
+Row #{0}: Mode of Payment {1} is added more than once,Zeile #{0}: Zahlungsweise {1} wurde mehr als einmal hinzugefügt
+Row #{0}: Next Due Date cannot be before the Start Date,Zeile #{0}: Das nächste Fälligkeitsdatum darf nicht vor dem Startdatum liegen
+Row #{0}: Objective {1} is not part of Quality Goal {2},Zeile #{0}: Zielsetzung {1} ist nicht Teil des Qualitätsziels {2}
+Row #{0}: Opening Amount for {1} cannot be negative,Zeile #{0}: Eröffnungsbetrag für {1} darf nicht negativ sein
+Row #{0}: Outstanding must be positive and cannot exceed the unpaid invoice or installment amount.,Zeile #{0}: Der ausstehende Betrag muss positiv sein und darf den unbezahlten Rechnungs- oder Ratenbetrag nicht überschreiten.
+Row #{0}: Parameter {1} is added more than once,Zeile #{0}: Parameter {1} wurde mehr als einmal hinzugefügt
+Row #{0}: Parameter {1} is already added,Zeile #{0}: Parameter {1} wurde bereits hinzugefügt
+Row #{0}: Parameter {1} is not part of Quality Feedback Template {2},Zeile #{0}: Parameter {1} ist nicht Teil der Qualitäts-Feedback-Vorlage {2}
+Row #{0}: Parcel count must be at least 1,Zeile #{0}: Die Anzahl der Pakete muss mindestens 1 betragen
+Row #{0}: Parcel {1} cannot be negative,Zeile #{0}: Paket {1} darf nicht negativ sein
+Row #{0}: Parent Node {1} does not exist.,Zeile #{0}: Übergeordneter Knoten {1} existiert nicht.
+Row #{0}: Payment must be overdue on the Dunning Posting Date.,Zeile #{0}: Die Zahlung muss am Buchungsdatum der Mahnung überfällig sein.
+Row #{0}: Payment Schedule must belong to the selected Sales Invoice.,Zeile #{0}: Der Zahlungsplan muss zur ausgewählten Ausgangsrechnung gehören.
+Row #{0}: Percentage (%) for Cost Center {1} must be greater than 0,Zeile #{0}: Der Prozentsatz (%) für Kostenstelle {1} muss größer als 0 sein
+Row #{0}: Quantity must be a positive number,Zeile #{0}: Die Menge muss eine positive Zahl sein
+Row #{0}: Rate {1} differs from the rate {2} agreed in Blanket Order {3},Zeile #{0}: Der Einzelpreis {1} weicht vom im Blankoauftrag {3} vereinbarten Einzelpreis {2} ab
+Row #{0}: Sales Invoice {1} must have the same {2} as this Dunning.,Zeile #{0}: Ausgangsrechnung {1} muss denselben Wert für {2} haben wie diese Mahnung.
+Row #{0}: Schedule Date cannot be before the Available-for-use Date {1},Zeile #{0}: Das geplante Datum darf nicht vor dem Verfügbar-ab-Datum {1} liegen
+"Row #{0}: Select an accessible, submitted Sales Invoice.","Zeile #{0}: Wählen Sie eine zugängliche, gebuchte Ausgangsrechnung aus."
+Row #{0}: select the serial and batch numbers for the new quantity of Item {1},Zeile #{0}: Wählen Sie die Serien- und Chargennummern für die neue Menge von Artikel {1} aus
+Row #{0}: Set a Rate of Depreciation or an Expected Value After Useful Life for the Written Down Value method,Zeile #{0}: Legen Sie für die Methode „Niedergeschriebener Wert“ einen Abschreibungssatz oder einen erwarteten Wert nach Ende der Nutzungsdauer fest
+Row #{0}: set the Part Number or the Item.,Zeile #{0}: Legen Sie die Teilenummer oder den Artikel fest.
+"Row #{0}: Since 'Produce Item per Operation' is enabled, the BOM {1} cannot be used for Sub Assembly Items","Zeile #{0}: Da „Artikel pro Arbeitsgang produzieren“ aktiviert ist, kann die Stückliste {1} nicht für Artikel der Unterbaugruppe verwendet werden"
+"Row #{0}: Target Warehouse must be {1}, as on Delivery Note {2}","Zeile #{0}: Das Eingangslager muss {1} sein, wie im Lieferschein {2}"
+Row #{0}: The batch {1} is disabled.,Zeile #{0}: Die Charge {1} ist deaktiviert.
+Row #{0}: the placements in the model are not valid.,Zeile #{0}: Die Platzierungen im Modell sind ungültig.
+Row #{0}: The same Sales Order line is already in row #{1},Zeile #{0}: Dieselbe Auftragsposition ist bereits in Zeile #{1} enthalten
+Row #{0}: Unreserve stock before changing the UOM or conversion factor of Item {1}.,"Zeile #{0}: Heben Sie die Reservierung des Lagerbestands auf, bevor Sie die ME oder den Umrechnungsfaktor von Artikel {1} ändern."
+Row #{0}: Unreserve stock before deleting item {1}.,"Zeile #{0}: Heben Sie die Reservierung des Lagerbestands auf, bevor Sie Artikel {1} löschen."
+Row #{0}: UOM {1} is not configured for Item {2}. Add a UOM conversion on the Item or use its stock UOM.,Zeile #{0}: ME {1} ist für Artikel {2} nicht konfiguriert. Fügen Sie am Artikel eine ME-Umrechnung hinzu oder verwenden Sie seine Lagermaßeinheit.
+Row #{0}: Work Order {1} does not allow alternative items,Zeile #{0}: Arbeitsauftrag {1} lässt keine alternativen Artikel zu
+Row #{0}: Work Order {1} reserved Item {2} after this return. Cancel the Work Order first.,Zeile #{0}: Arbeitsauftrag {1} hat Artikel {2} nach dieser Rückgabe reserviert. Stornieren Sie zuerst den Arbeitsauftrag.
+"Row #{0}: {1} assets of {2} are linked to {3}, which keeps only {4} after this return. Delete the extra draft assets first.","Zeile #{0}: {1} Vermögensgegenstände von {2} sind mit {3} verknüpft, das nach dieser Rückgabe nur noch {4} behält. Löschen Sie zuerst die überzähligen Vermögensgegenstände im Entwurf."
+Row #{0}: {1} is already a member of this team.,Zeile #{0}: {1} ist bereits Mitglied dieses Teams.
+Row #{0}: {1} is already included in this Dunning.,Zeile #{0}: {1} ist bereits in dieser Mahnung enthalten.
+Row #{0}: {1} is not a member of the maintenance team {2},Zeile #{0}: {1} ist kein Mitglied des Wartungsteams {2}
+Row #{0}: {1} is received but is neither the finished good nor a secondary item. Set its Secondary Item Type or remove the row.,"Zeile #{0}: {1} wurde empfangen, ist aber weder das Fertigerzeugnis noch ein Sekundärartikel. Legen Sie die Art des Sekundärartikels fest oder entfernen Sie die Zeile."
+Row #{0}: {1} must match the Payment Schedule.,Zeile #{0}: {1} muss mit dem Zahlungsplan übereinstimmen.
+"Row #{0}: {1} {2} belongs to Company {3}, not {4}","Zeile #{0}: {1} {2} gehört zu Unternehmen {3}, nicht zu {4}"
+Row #{0}: {1} {2} is already in another Payment Order,Zeile #{0}: {1} {2} ist bereits in einem anderen Zahlungsauftrag enthalten
+Row #{0}: {1} {2} is already paid,Zeile #{0}: {1} {2} ist bereits bezahlt
+Row {0} does not belong to this Sales Order,Zeile {0} gehört nicht zu diesem Auftrag
+Row {0} has no value in the code column {1},Zeile {0} hat keinen Wert in der Code-Spalte {1}
+"Row {0} in {1} and row {2} in {3} apply to the same quantity and amount. Change the ranges, set a different {4}, or enable {5} on both rows.","Zeile {0} in {1} und Zeile {2} in {3} gelten für dieselbe Menge und denselben Betrag. Ändern Sie die Bereiche, legen Sie einen anderen Wert für {4} fest oder aktivieren Sie {5} in beiden Zeilen."
+Row {0} is not part of Request for Quotation {1}.,Zeile {0} ist nicht Teil der Angebotsanfrage {1}.
+Row {0}: A target already exists for this fiscal year and item group.,Zeile {0}: Für dieses Geschäftsjahr und diese Artikelgruppe existiert bereits ein Ziel.
+Row {0}: Account {1} cannot be used for landed cost charges,Zeile {0}: Konto {1} kann nicht für Einstandskosten verwendet werden
+Row {0}: Account {1} is disabled,Zeile {0}: Konto {1} ist deaktiviert
+Row {0}: Account {1} is disabled.,Zeile {0}: Konto {1} ist deaktiviert.
+"Row {0}: Account {1} must be a ledger account of type Bank, Cash or Receivable.","Zeile {0}: Konto {1} muss ein Buchungskonto vom Typ Bank, Bargeld oder Forderung sein."
+Row {0}: Account {1} must be a {2} account,Zeile {0}: Konto {1} muss ein {2}-Konto sein
+Row {0}: Activity Type {1} is disabled,Zeile {0}: Aktivitätsart {1} ist deaktiviert
+Row {0}: Applicable Charges for Item {1} cannot be negative,Zeile {0}: Anfallende Gebühren für Artikel {1} dürfen nicht negativ sein
+Row {0}: Applicable Charges for Item {1} cannot be positive,Zeile {0}: Anfallende Gebühren für Artikel {1} dürfen nicht positiv sein
+Row {0}: Conversion Factor must be greater than zero.,Zeile {0}: Der Umrechnungsfaktor muss größer als null sein.
+Row {0}: Employee {1} is already working at this time on another Job Card,Zeile {0}: Mitarbeiter {1} arbeitet zu dieser Zeit bereits an einer anderen Jobkarte
+Row {0}: Employee {1} is already working from {2} to {3} on Job Card {4},Zeile {0}: Mitarbeiter {1} arbeitet bereits von {2} bis {3} an Jobkarte {4}
+Row {0}: Item {1} is not the Finished Good of Purchase Order {2}.,Zeile {0}: Artikel {1} ist nicht das Fertigerzeugnis der Bestellung {2}.
+Row {0}: Landed Cost Voucher can only be made against a Manufacture or Repack Stock Entry. Stock Entry {1} is a {2}.,Zeile {0}: Ein Beleg über Einstandskosten kann nur gegen eine Lagerbuchung vom Typ Fertigung oder Umpacken erstellt werden. Lagerbuchung {1} ist vom Typ {2}.
+Row {0}: level {1} does not follow the level of the row above.,Zeile {0}: Ebene {1} passt nicht zur Ebene der darüberliegenden Zeile.
+Row {0}: Number of visits can not be more than the {1} days between Start and End Date,Zeile {0}: Die Anzahl der Besuche darf die {1} Tage zwischen Start- und Enddatum nicht überschreiten
+Row {0}: Please enter Account Name,Zeile {0}: Bitte geben Sie den Kontonamen ein
+Row {0}: Please select an active and submitted BOM for Item {1}.,Zeile {0}: Bitte wählen Sie eine aktive und gebuchte Stückliste für Artikel {1} aus.
+Row {0}: Pricing Rule {1} no longer applies to item {2} and has been removed,Zeile {0}: Preisregel {1} gilt nicht mehr für Artikel {2} und wurde entfernt
+Row {0}: Rate of Depreciation cannot be negative,Zeile {0}: Der Abschreibungssatz darf nicht negativ sein
+Row {0}: Salvage Value Percentage must be between 0 and 100,Zeile {0}: Der Restwertanteil muss zwischen 0 und 100 liegen
+Row {0}: Select the time log of Timesheet {1} that this amount bills,"Zeile {0}: Wählen Sie das Zeitprotokoll der Zeiterfassung {1} aus, das mit diesem Betrag abgerechnet wird"
+Row {0}: Service Item {1} and its rate must match Purchase Order {2}.,Zeile {0}: Dienstleistungsartikel {1} und sein Einzelpreis müssen mit Bestellung {2} übereinstimmen.
+Row {0}: Target Qty and Target Amount cannot be negative,Zeile {0}: Zielmenge und Zielbetrag dürfen nicht negativ sein
+Row {0}: Task {1} ends after its parent task {2},Zeile {0}: Vorgang {1} endet nach seinem übergeordneten Vorgang {2}
+Row {0}: Task {1} is not a Template Task,Zeile {0}: Vorgang {1} ist keine Vorlage einer Aufgabe
+Row {0}: The same time log of Timesheet {1} is added more than once,Zeile {0}: Dasselbe Zeitprotokoll der Zeiterfassung {1} wurde mehr als einmal hinzugefügt
+Row {0}: Timesheet {1} has no unbilled billable time logs,"Zeile {0}: Zeiterfassung {1} hat keine nicht abgerechneten, abrechenbaren Zeitprotokolle"
+Row {0}: To Time must be later than From Time. Split overnight slots by day.,Zeile {0}: Die Bis-Zeit muss nach der Von-Zeit liegen. Teilen Sie Zeitfenster über Mitternacht nach Tagen auf.
+Row {0}: Total packed qty cannot be greater than {1} for the Item {2}.,Zeile {0}: Die gesamte verpackte Menge darf für Artikel {2} nicht größer als {1} sein.
+Row {0}: Voucher is not eligible for clearance with the selected filters.,Zeile {0}: Der Beleg kommt mit den ausgewählten Filtern nicht für die Verrechnung in Frage.
+Row {0}: {1} cannot be {2} when {3} is {4},"Zeile {0}: {1} kann nicht {2} sein, wenn {3} {4} ist"
+Row {0}: {1} is not a valid Party Type,Zeile {0}: {1} ist kein gültiger Partei-Typ
+Row {0}: {1} {2} visits need an End Date of {3}. Change the End Date or the Number of Visits.,Zeile {0}: {1} {2}-Besuche erfordern ein Enddatum am {3}. Ändern Sie das Enddatum oder die Anzahl der Besuche.
+"Rows {0}: the items already have stock transactions in these warehouses, use the purpose Stock Reconciliation instead of Opening Stock",Zeilen {0}: Für die Artikel gibt es in diesen Lagern bereits Lagertransaktionen. Verwenden Sie statt Anfangsbestand den Zweck Bestandsabgleich
+Sales Forecast {0} already has Master Production Schedule {1},Absatzprognose {0} hat bereits den Hauptproduktionsplan {1}
+Sales Invoice (due),Ausgangsrechnung (fällig)
+Sales Order Item {0} does not belong to {1},Auftragsposition {0} gehört nicht zu {1}
+Sales Order Qty Exceeded,Auftragsmenge überschritten
+Sales Order status cannot be set to {0},Der Auftragsstatus kann nicht auf {0} gesetzt werden
+Sales Order {0} has reserved stock. Unreserve it before closing.,Auftrag {0} hat reservierten Lagerbestand. Heben Sie die Reservierung vor dem Schließen auf.
+Sales Person {0} cannot be disabled because {1} {2} is unfinished.,"Verkäufer {0} kann nicht deaktiviert werden, da {1} {2} nicht abgeschlossen ist."
+Sales Person {0} is a group.,Verkäufer {0} ist eine Gruppe.
+Sales Person {0} is repeated in the sales team.,Verkäufer {0} kommt im Verkaufsteam mehrfach vor.
+Save and Submit,Speichern und buchen
+Save the design before creating BOMs.,"Speichern Sie das Design, bevor Sie Stücklisten erstellen."
+Save the Production Plan before creating Material Requests,"Speichern Sie den Produktionsplan, bevor Sie Materialanfragen erstellen"
+Save the Project before duplicating it,"Speichern Sie das Projekt, bevor Sie es duplizieren"
+Schedule Conflict,Terminkonflikt
+Schedule rows {0} do not belong to Maintenance Schedule {1},Planzeilen {0} gehören nicht zum Wartungsplan {1}
+Second Quarter,Zweites Quartal
+"Select a Finance Book, as Asset {0} has named finance books","Wählen Sie ein Finanzbuch aus, da Vermögensgegenstand {0} benannte Finanzbücher hat"
+Select a submitted Maintenance Schedule for the scheduled visits,Wählen Sie einen gebuchten Wartungsplan für die geplanten Besuche aus
+Select a valid Sales Order row for Item {0}.,Wählen Sie eine gültige Auftragszeile für Artikel {0} aus.
+"Select either Items or Item Groups, not both","Wählen Sie entweder Artikel oder Artikelgruppen aus, nicht beides"
+Select field,Feld auswählen
+Select the differences to fix.,Wählen Sie die zu korrigierenden Abweichungen aus.
+Select the parts to map and set their items.,Wählen Sie die zuzuordnenden Teile aus und legen Sie deren Artikel fest.
+Select the stock Account to compare with the stock value,"Wählen Sie das Lagerkonto aus, das mit dem Lagerwert verglichen werden soll"
+Sells several items together as one item.,Verkauft mehrere Artikel zusammen als einen Artikel.
+Semi-Finished,Halbfertig
+Send materials for Job Card {0} to the supplier from its Subcontracting Order.,Senden Sie Materialien für Jobkarte {0} aus dem zugehörigen Unterauftrag an den Lieferanten.
+Sender,Absender
+Serial and Batch Bundle {0} is not posted by {1} {2}. A bundle is submitted with the transaction it belongs to.,"Serien- und Chargenbündel {0} wurde nicht von {1} {2} gebucht. Ein Bündel wird zusammen mit der Transaktion gebucht, zu der es gehört."
+Serial No {0} is still in stock in Warehouse {1},Seriennummer {0} ist noch im Lager {1} vorrätig
+Serial No {0} is still in stock in Warehouse {1} and was not delivered to a customer.,Seriennummer {0} ist noch im Lager {1} vorrätig und wurde nicht an einen Kunden geliefert.
+"Serial No {0} was delivered to Customer {1}, not to {2}.","Seriennummer {0} wurde an Kunde {1} geliefert, nicht an {2}."
+"Serial No {0} was sold to Customer {1}, not {2}","Seriennummer {0} wurde an Kunde {1} verkauft, nicht an {2}"
+Serial Number Series is mandatory when entering Opening Stock for a serialized item.,"Die Serie der Seriennummer ist obligatorisch, wenn ein Anfangsbestand für einen Artikel mit Seriennummer erfasst wird."
+Server Name,Servername
+Service Item Not Set,Dienstleistungsartikel nicht festgelegt
+Set an Item Price for item {0} before removing or replacing its Rate pricing rule.,"Legen Sie einen Artikelpreis für Artikel {0} fest, bevor Sie dessen Einzelpreis-Preisregel entfernen oder ersetzen."
+Set as Default Format,Als Standardformat festlegen
+Set as Primary,Als primär festlegen
+Set Item Image,Artikelbild festlegen
+Set the Design Name or the Finished Good.,Legen Sie den Konstruktionsnamen oder das Fertigerzeugnis fest.
+Set the filters and generate a new one.,Legen Sie die Filter fest und erstellen Sie einen neuen.
+Set up manually,Manuell einrichten
+Set {0} in Item {1} or disable {2} in {3},Legen Sie {0} in Artikel {1} fest oder deaktivieren Sie {2} in {3}
+Sets stock quantities and values to what is actually in your warehouses.,Setzt Lagermengen und -werte auf den tatsächlichen Bestand in Ihren Lagern.
+"Settings for a point of sale, like its warehouse, price list and payment methods.","Einstellungen für eine Verkaufsstelle, z. B. Lager, Preisliste und Zahlungsweisen."
+Share balances can only be changed through Share Transfer,Anteilsbestände können nur über eine Anteilsübertragung geändert werden
+Shift Factor must be greater than zero.,Der Schichtfaktor muss größer als null sein.
+Show Completed Orders,Abgeschlossene Aufträge anzeigen
+Show Differences Settled by Adjustment Entries,Durch Ausgleichsbuchungen ausgeglichene Abweichungen anzeigen
+Show Incorrect Entries,Fehlerhafte Buchungen anzeigen
+Show keyboard shortcuts,Tastaturkürzel anzeigen
+Show totals,Summen anzeigen
+Shows which POS invoices were merged into a sales invoice.,"Zeigt, welche POS-Rechnungen in einer Ausgangsrechnung zusammengeführt wurden."
+Sign in to this site:,Bei dieser Website anmelden:
+Sign-in took too long. Please try again.,Die Anmeldung hat zu lange gedauert. Bitte versuchen Sie es erneut.
+Sign-in was cancelled.,Die Anmeldung wurde abgebrochen.
+"Signed file {0} is not supported, import the XML file instead","Signierte Datei {0} wird nicht unterstützt, importieren Sie stattdessen die XML-Datei"
+Signee and Signed On are required for a signed contract.,Unterzeichner und Unterzeichnungsdatum sind für einen unterzeichneten Vertrag erforderlich.
+"Since you are reposting transactions from the previous fiscal year {0}, the closing balances of that fiscal year can change. The reposting might also take time to complete.","Da Sie Transaktionen aus dem vorherigen Geschäftsjahr {0} neu buchen, können sich die Schlusssalden dieses Geschäftsjahres ändern. Die Neubuchung kann außerdem einige Zeit in Anspruch nehmen."
+SMTP AUTH is turned off for this mailbox. Ask your Microsoft 365 admin to turn on Authenticated SMTP for it.,"SMTP AUTH ist für dieses Postfach deaktiviert. Bitten Sie Ihren Microsoft-365-Administrator, „Authentifiziertes SMTP“ dafür zu aktivieren."
+SMTP is turned off for this mailbox. Ask your admin to turn it on.,"SMTP ist für dieses Postfach deaktiviert. Bitten Sie Ihren Administrator, es zu aktivieren."
+Snapshot,Momentaufnahme
+Some of its serial nos or batches should be short of stock on this date.,Einige seiner Seriennummern oder Chargen dürften an diesem Datum einen Fehlbestand aufweisen.
+Someone who might buy from you.,"Jemand, der möglicherweise bei Ihnen kauft."
+"Someone who sells for you, with targets and commission.","Jemand, der für Sie verkauft, mit Zielen und Provision."
+"Something a supplier is scored on, like on-time delivery.","Ein Kriterium, nach dem ein Lieferant bewertet wird, z. B. pünktliche Lieferung."
+"Something an item is checked for, like weight or colour.","Eine Eigenschaft, auf die ein Artikel geprüft wird, z. B. Gewicht oder Farbe."
+Something that did not meet your quality standard.,"Etwas, das Ihren Qualitätsstandard nicht erfüllt hat."
+Something went wrong. Contact your System Manager.,Etwas ist schiefgelaufen. Wenden Sie sich an Ihren System-Manager.
+"Something you measure and improve on a schedule, like on-time delivery.","Etwas, das Sie regelmäßig messen und verbessern, z. B. die Termintreue bei Lieferungen."
+"Something your business owns and uses over time, like a machine or a laptop.","Etwas, das Ihr Unternehmen besitzt und über längere Zeit nutzt, z. B. eine Maschine oder einen Laptop."
+Split Quantity must be greater than zero,Die aufzuteilende Menge muss größer als null sein
+Splits one cost center's amounts across others by percentage.,Verteilt die Beträge einer Kostenstelle prozentual auf andere.
+Spreads a yearly budget or target across months for seasonal businesses.,"Verteilt ein Jahresbudget oder -ziel auf die Monate, für Saisongeschäfte."
+Standard is used when no default is set,"Standard wird verwendet, wenn kein Standardwert festgelegt ist"
+Standard rated supplies with no VAT Emirate,Lieferungen zum Normalsatz ohne MwSt.-Emirat
+Standard Stock Entry Type {0} cannot be deleted,Die Standard-Art der Lagerbuchung {0} kann nicht gelöscht werden
+"Standard terms to add to quotes, orders and invoices.","Standardbedingungen für Angebote, Aufträge und Rechnungen."
+Status Cancelled can only be set by cancelling the Quality Inspection,Der Status „Storniert“ kann nur durch Stornieren der Qualitätsprüfung gesetzt werden
+Status cannot be changed because an ordered Quotation exists.,"Der Status kann nicht geändert werden, da ein beauftragtes Angebot existiert."
+Status {0} cannot be set manually.,Der Status {0} kann nicht manuell gesetzt werden.
+Status {0} is set from the Opportunity's Quotations,Der Status {0} wird aus den Angeboten der Chance gesetzt
+"STEP file (.step or .stp) or CSV file. A CSV file needs a Level or Item Number column, a Part Number or Part Name column, and a Quantity column.","STEP-Datei (.step oder .stp) oder CSV-Datei. Eine CSV-Datei benötigt eine Spalte „Ebene“ oder „Positionsnummer“, eine Spalte „Teilenummer“ oder „Teilename“ sowie eine Spalte „Menge“."
+Step {0},Schritt {0}
+Step {0} ({1}),Schritt {0} ({1})
+Step {0} of {1},Schritt {0} von {1}
+Step {0} Output,Ergebnis von Schritt {0}
+"STEP, STL or GLB file of a material added in ERPNext, used to place it in the 3D model.","STEP-, STL- oder GLB-Datei eines in ERPNext angelegten Materials, mit der es im 3D-Modell platziert wird."
+Stock Closing Entry Failed,Bestandsabschlusseintrag fehlgeschlagen
+Stock Closing Entry {0} must be submitted to generate the closing balance,"Der Bestandsabschlusseintrag {0} muss gebucht sein, um den Schlussbestand zu erzeugen"
+Stock Ledger Entries of Cancelled Vouchers,Buchungen im Lagerbuch zu stornierten Belegen
+Stock Ledger Entries of the selected vouchers have been cancelled and reposting has been queued.,Die Buchungen im Lagerbuch der ausgewählten Belege wurden storniert und die Neubuchung wurde eingeplant.
+Stock Reposting Ongoing,Lager-Neubuchung läuft
+Stock Reservation Entry {0} is already used by Work Order {1}. Close the Work Order to release the unused stock.,"Der Bestandsreservierungseintrag {0} wird bereits von Arbeitsauftrag {1} verwendet. Schließen Sie den Arbeitsauftrag, um den nicht verbrauchten Bestand freizugeben."
+Stock set aside for a sales order or production.,Für einen Auftrag oder die Produktion zurückgelegter Bestand.
+Stock Valuation Comparison,Vergleich der Lagerbewertung
+Stock Value Difference,Lagerwertdifferenz
+Sub-Assembly,Unterbaugruppe
+Sub-Assembly BOM,Stückliste der Unterbaugruppe
+Sub-assembly item,Unterbaugruppen-Artikel
+Subcontracted Job Card,Jobkarte in Unterauftrag
+Subcontracted Qty,Untervergebene Menge
+Submit Job Card {0} before making its Manufacture entry,"Buchen Sie die Jobkarte {0}, bevor Sie die zugehörige Fertigungsbuchung erstellen"
+Submit Subcontracting Receipt {0} before making a Purchase Receipt,"Buchen Sie den Unterauftragsbeleg {0}, bevor Sie einen Eingangsbeleg erstellen"
+Submit this design before creating BOMs.,"Buchen Sie diese Konstruktion, bevor Sie Stücklisten erstellen."
+Submit this design before making a new revision.,"Buchen Sie diese Konstruktion, bevor Sie eine neue Revision anlegen."
+Suggest Items,Artikel vorschlagen
+Superseded,Ersetzt
+Superseded By,Ersetzt durch
+Supplier Invoice {0} is already imported in Purchase Invoice {1},Die Lieferantenrechnung {0} wurde bereits in die Eingangsrechnung {1} importiert
+Supplier Name,Lieferantenname
+Supplier Quotation {0} has expired.,Das Lieferantenangebot {0} ist abgelaufen.
+Supplier Scorecard refresh failed,Aktualisierung der Lieferantenbewertung fehlgeschlagen
+Supplier Scorecard standing of {0}: {1},Stand der Lieferantenbewertung von {0}: {1}
+Supplier Scorecard {0} already has a submitted period overlapping {1} to {2},"Die Lieferantenbewertung {0} hat bereits einen gebuchten Zeitraum, der sich mit {1} bis {2} überschneidet"
+"Switch between light, dark, or system theme","Zwischen hellem, dunklem oder System-Design wechseln"
+Synced,Synchronisiert
+System Manager,System-Manager
+Target Asset is mandatory,Ziel-Vermögensgegenstand ist erforderlich
+Task {0} does not belong to Asset Maintenance {1},Die Aufgabe {0} gehört nicht zur Wartung Vermögenswert {1}
+Task {0} has child tasks in another project. Move them out of this group first.,Die Aufgabe {0} hat untergeordnete Aufgaben in einem anderen Projekt. Verschieben Sie diese zuerst aus dieser Gruppe.
+Tax rates for items that are taxed differently from the rest.,"Steuersätze für Artikel, die anders als die übrigen besteuert werden."
+"Tax-exclusive additional discount carried from a source document, per stock unit.","Aus einem Vorgängerbeleg übernommener zusätzlicher Rabatt ohne Steuern, je Lagereinheit."
+Tell AI agents what this site is for and how your team uses it. Agents receive this text when they connect.,"Beschreiben Sie KI-Agenten, wofür diese Website dient und wie Ihr Team sie nutzt. Agenten erhalten diesen Text beim Verbinden."
+Template Type,Vorlagentyp
+Templates cannot be merged,Vorlagen können nicht zusammengeführt werden
+The 3D file could not be loaded.,Die 3D-Datei konnte nicht geladen werden.
+The 3D viewer files are missing. Run yarn install for ERPNext.,Die Dateien des 3D-Viewers fehlen. Führen Sie yarn install für ERPNext aus.
+"The account-payee message in Print Format {0} could not be identified unambiguously. Its HTML has been preserved. Review and escape the message in its custom HTML, or regenerate the format using Update Print Format.",Der Vermerk „Nur zur Verrechnung“ im Druckformat {0} konnte nicht eindeutig erkannt werden. Sein HTML wurde beibehalten. Prüfen und maskieren Sie den Vermerk in dessen benutzerdefiniertem HTML oder erzeugen Sie das Format über „Druckformat aktualisieren“ neu.
+The appointment time has passed. Please book the appointment again.,Der Termin ist bereits verstrichen. Bitte buchen Sie den Termin erneut.
+The Blank Template contains just the account type and root type required to build the Chart of Accounts. Please enter the account names and add more rows as per your requirement.,"Die leere Vorlage enthält nur den Kontotyp und den Stammtyp, die zum Aufbau des Kontenplans erforderlich sind. Bitte geben Sie die Kontonamen ein und fügen Sie nach Bedarf weitere Zeilen hinzu."
+The BOM of the finished good gets its operations from this routing.,Die Stückliste des Fertigerzeugnisses erhält ihre Arbeitsgänge aus dieser Ablaufplanung.
+The BOM of the finished good is made for this quantity. Part quantities are for one finished good.,Die Stückliste des Fertigerzeugnisses wird für diese Menge erstellt. Die Teilemengen gelten für ein Fertigerzeugnis.
+The BOMs are being created. The status changes when they are ready.,"Die Stücklisten werden erstellt. Der Status ändert sich, sobald sie fertig sind."
+The BOMs could not be created. See the Error Log in the Details tab.,Die Stücklisten konnten nicht erstellt werden. Siehe das Fehlerprotokoll im Reiter „Details“.
+The BOMs of this design are being created. Wait until the status changes.,"Die Stücklisten dieser Konstruktion werden erstellt. Warten Sie, bis sich der Status ändert."
+The cash or non-trade discount cannot be combined with discounts carried from other documents.,Der Barzahlungs- oder Sonderrabatt kann nicht mit aus anderen Belegen übernommenen Rabatten kombiniert werden.
+The cash or non-trade discount cannot be combined with the discount of {0}.,Der Barzahlungs- oder Sonderrabatt kann nicht mit dem Rabatt von {0} kombiniert werden.
+"The closing balance {0} of the Stock Asset accounts differs from the closing value {1} of the Stock Balance report by {2}, which is within the allowed {3}% tolerance. Submit the Period Closing Voucher with this difference?","Der Schlussbestand {0} der Bestandskonten weicht vom Schlusswert {1} des Berichts „Lagerbestand“ um {2} ab, was innerhalb der zulässigen Toleranz von {3} % liegt. Den Periodenabschlussbeleg mit dieser Differenz buchen?"
+The company {0} is not in the United States. IRS 1099 is only available for companies in the United States.,Das Unternehmen {0} befindet sich nicht in den Vereinigten Staaten. IRS 1099 ist nur für Unternehmen in den Vereinigten Staaten verfügbar.
+The contents and weight of each package in a delivery.,Inhalt und Gewicht jedes Pakets einer Lieferung.
+"The cost of items consumed in Asset Capitalization {0} has changed, but its Target Asset {1} is already submitted. Cancel the Target Asset and this Asset Capitalization, then repost.","Die Kosten der in der Vermögensgegenstand-Aktivierung {0} verbrauchten Artikel haben sich geändert, aber der Ziel-Vermögensgegenstand {1} ist bereits gebucht. Stornieren Sie den Ziel-Vermögensgegenstand und diese Vermögensgegenstand-Aktivierung und buchen Sie anschließend neu."
+"The criteria formula fails when every variable is {0}. Check its syntax and guard divisions by a variable, for example: {1}","Die Kriterienformel schlägt fehl, wenn jede Variable {0} ist. Prüfen Sie die Syntax und sichern Sie Divisionen durch eine Variable ab, zum Beispiel: {1}"
+The CSV file has no parts.,Die CSV-Datei enthält keine Teile.
+The CSV file needs a Level or an Item Number column.,Die CSV-Datei benötigt eine Spalte „Ebene“ oder „Artikelnummer“.
+The CSV file needs a Part Number or a Part Name column.,Die CSV-Datei benötigt eine Spalte „Teilenummer“ oder „Teilename“.
+The CSV file needs a Quantity column.,Die CSV-Datei benötigt eine Spalte „Menge“.
+"The depreciation schedule this allocation replaced, restored when the allocation is cancelled","Der durch diese Zuweisung ersetzte Abschreibungsplan, der beim Stornieren der Zuweisung wiederhergestellt wird"
+The driver must be active to submit a Delivery Trip.,"Der Fahrer muss aktiv sein, um eine Auslieferungsfahrt zu buchen."
+The driver's licence must be valid on the departure date.,Der Führerschein des Fahrers muss am Abfahrtsdatum gültig sein.
+"The finished good rows receive {0}, which is more than the Finished Good Quantity {1}. Set Finished Good Quantity to {0} and get the items again, or reduce the finished good rows.","Die Fertigerzeugnis-Zeilen erhalten {0}, was mehr als die Fertigerzeugnis Menge {1} ist. Setzen Sie die Fertigerzeugnis Menge auf {0} und rufen Sie die Artikel erneut ab, oder verringern Sie die Fertigerzeugnis-Zeilen."
+The frequency at which project progress and company transaction details will be updated. Set it to daily or monthly if you post a lot of transactions. Daily refreshes nightly; Monthly refreshes on the 1st of each month.,"Die Häufigkeit, mit der Projektfortschritt und Transaktionsdetails des Unternehmens aktualisiert werden. Stellen Sie sie auf täglich oder monatlich, wenn Sie viele Transaktionen buchen. Täglich aktualisiert nachts; monatlich aktualisiert am 1. jedes Monats."
+The grand total of a Proforma Invoice cannot be negative.,Die Gesamtsumme einer Proformarechnung darf nicht negativ sein.
+The holidays and weekly offs of a company or employee.,Die Feiertage und wöchentlichen freien Tage eines Unternehmens oder Mitarbeiters.
+The increase in shifts cannot be balanced by reducing the shifts of the rows after the changed rows,Die Erhöhung der Schichten kann nicht durch Verringern der Schichten in den Zeilen nach den geänderten Zeilen ausgeglichen werden
+The item image could not be uploaded.,Das Artikelbild konnte nicht hochgeladen werden.
+The items and quantities to pick from the warehouse.,"Die Artikel und Mengen, die aus dem Lager kommissioniert werden sollen."
+The licence expiry date cannot precede its issuing date.,Das Ablaufdatum des Führerscheins darf nicht vor seinem Ausstellungsdatum liegen.
+The materials a subcontractor uses to make an item for you.,"Die Materialien, die ein Unterauftragnehmer verwendet, um einen Artikel für Sie herzustellen."
+The materials and operations it takes to make an item.,"Die Materialien und Arbeitsgänge, die zur Herstellung eines Artikels nötig sind."
+The materials come from BOM {0}.,Die Materialien stammen aus Stückliste {0}.
+The order of operations to make an item.,Die Reihenfolge der Arbeitsgänge zur Herstellung eines Artikels.
+The parameters to check an item for.,"Die Parameter, auf die ein Artikel geprüft wird."
+The parent account {0} does not exist in the uploaded template,Das übergeordnete Konto {0} ist in der hochgeladenen Vorlage nicht vorhanden
+The parts under {0} will be removed from the BOM.,Die Teile unter {0} werden aus der Stückliste entfernt.
+The people responsible for maintaining assets.,Die für die Wartung von Vermögensgegenständen verantwortlichen Personen.
+The price of an item in a price list.,Der Preis eines Artikels in einer Preisliste.
+"The Print button prints the generated PDF instead of the page preview, so the printout matches the downloaded PDF.","Die Schaltfläche „Drucken“ druckt das erzeugte PDF statt der Seitenvorschau, sodass der Ausdruck dem heruntergeladenen PDF entspricht."
+The Print Format Editor is visual. HTML is hand-written.,Der Druckformat-Editor ist visuell. HTML wird von Hand geschrieben.
+The progress of a BOM replacement or cost update.,Der Fortschritt eines Stücklistenaustauschs oder einer Kostenaktualisierung.
+The questions to ask when collecting quality feedback.,"Die Fragen, die beim Einholen von Qualitäts-Feedback gestellt werden."
+The rate to convert one currency into another.,Der Kurs zur Umrechnung einer Währung in eine andere.
+The result of creating or submitting many documents at once.,Das Ergebnis des Erstellens oder Buchens vieler Belege auf einmal.
+The rows and formulas of a custom financial statement.,Die Zeilen und Formeln eines benutzerdefinierten Finanzberichts.
+The rows of Item {0} in Warehouse {1} are not the stock it should hold on this date. Make the Adjustment Entry again from the Stock Valuation Comparison report.,"Die Zeilen von Artikel {0} im Lager {1} entsprechen nicht dem Bestand, den es zu diesem Datum haben sollte. Erstellen Sie die Korrekturbuchung erneut aus dem Bericht „Vergleich der Lagerbewertung“."
+The Sample Template contains all the required accounts pre filled in the template. You can add more accounts or change existing accounts in the template as per your choice.,Die Beispielvorlage enthält alle erforderlichen Konten bereits vorausgefüllt. Sie können nach Belieben weitere Konten hinzufügen oder bestehende Konten in der Vorlage ändern.
+The serial numbers and batches moved in a transaction.,Die in einer Transaktion bewegten Seriennummern und Chargen.
+The signature of a signed contract cannot be changed. Amend the contract instead.,Die Unterschrift eines unterzeichneten Vertrags kann nicht geändert werden. Berichtigen Sie stattdessen den Vertrag.
+The STEP file could not be read.,Die STEP-Datei konnte nicht gelesen werden.
+The STEP file has an assembly that contains itself.,"Die STEP-Datei enthält eine Baugruppe, die sich selbst enthält."
+The STEP file has no product structure.,Die STEP-Datei hat keine Produktstruktur.
+The STEP file is incomplete or damaged.,Die STEP-Datei ist unvollständig oder beschädigt.
+The STEP file refers to a missing {0} #{1}.,Die STEP-Datei verweist auf ein fehlendes {0} #{1}.
+The steps of a process you follow to keep quality in check.,"Die Schritte eines Verfahrens, mit dem Sie die Qualität sichern."
+"The stock qty and value of the selected items are set right on this date, without reposting. Stock and accounting reports before it keep the old values, and no stock transaction can be posted before it for these items afterwards.","Lagermenge und -wert der ausgewählten Artikel werden zu diesem Datum korrigiert, ohne Neubuchung. Lager- und Buchhaltungsberichte vor diesem Datum behalten die alten Werte, und für diese Artikel kann danach keine Lagertransaktion mehr vor diesem Datum gebucht werden."
+The Supplier Scorecard standing of {0} is now {1}.,Der Stand der Lieferantenbewertung von {0} ist jetzt {1}.
+the target warehouse,das Ziellager
+The tariff code an item is declared under at customs.,"Die Zolltarifnummer, unter der ein Artikel beim Zoll angemeldet wird."
+"The taxes and charges, like shipping or insurance, to add to purchases.","Die Steuern und Abgaben, z. B. Versand oder Versicherung, die Einkäufen hinzugefügt werden."
+"The taxes and charges, like shipping or insurance, to add to sales.","Die Steuern und Abgaben, z. B. Versand oder Versicherung, die Verkäufen hinzugefügt werden."
+The total Work Order quantity {0} in Material Request {1} cannot be greater than allowed requested quantity {2} for Item {3},Die gesamte Arbeitsauftragsmenge {0} in Materialanfrage {1} darf die zulässige angeforderte Menge {2} für Artikel {3} nicht überschreiten
+The Typst renderer cannot embed this background image: {0},Der Typst-Renderer kann dieses Hintergrundbild nicht einbetten: {0}
+"The upkeep tasks an asset needs, and who does them.","Die Wartungsaufgaben, die ein Vermögensgegenstand benötigt, und wer sie ausführt."
+The uploaded genericode file has no {0} element.,Die hochgeladene genericode-Datei enthält kein Element {0}.
+The value {0} cannot be removed as it is assigned to an existing Item {1}.,"Der Wert {0} kann nicht entfernt werden, da er einem vorhandenen Artikel {1} zugeordnet ist."
+The VAT accounts to report in the South Africa VAT audit report.,"Die MwSt.-Konten, die im südafrikanischen MwSt.-Prüfbericht ausgewiesen werden."
+The wording and fee for a kind of payment reminder.,Text und Gebühr für eine Art von Zahlungserinnerung.
+The work done for one operation of a work order.,Die für einen Arbeitsgang eines Arbeitsauftrags geleistete Arbeit.
+The year your books are kept and closed for.,"Das Jahr, für das Ihre Bücher geführt und abgeschlossen werden."
+then,dann
+Then use it:,Dann verwenden:
+There are multiple allowance rows with the same Valid From date.,Es gibt mehrere Pauschalen-Zeilen mit demselben „Gültig ab“-Datum.
+There are no differences to fix.,Es gibt keine zu behebenden Differenzen.
+There are no item variants for the selected filters,Für die ausgewählten Filter gibt es keine Artikelvarianten
+There are no overdue payments to include in this Dunning.,"Es gibt keine überfälligen Zahlungen, die in diese Mahnung aufgenommen werden können."
+These already have a pending repost and are left out:,"Für diese steht bereits eine Neubuchung aus, sie werden ausgelassen:"
+These cannot be settled by an Adjustment Entry and need a repost:,Diese können nicht durch eine Korrekturbuchung ausgeglichen werden und müssen neu gebucht werden:
+"These raw materials are short in their source warehouse, so the transfer cannot be submitted yet.","Diese Rohmaterialien fehlen in ihrem Quelllager, daher kann der Übertrag noch nicht gebucht werden."
+Third Quarter,Drittes Quartal
+This design has a newer revision. Create BOMs from the latest revision.,Diese Konstruktion hat eine neuere Revision. Erstellen Sie Stücklisten aus der neuesten Revision.
+This design has no previous revision.,Diese Konstruktion hat keine vorherige Revision.
+This format cannot use the PlutoPrint renderer: {0},Dieses Format kann den PlutoPrint-Renderer nicht verwenden: {0}
+This Gift Card cannot be used by this customer,Diese Geschenkkarte kann von diesem Kunden nicht verwendet werden
+This is a background report,Dies ist ein Hintergrundbericht
+This item comes from BOM {0} and cannot be changed.,Dieser Artikel stammt aus Stückliste {0} und kann nicht geändert werden.
+This mailbox can't send email from other apps. Please use a work mailbox.,Dieses Postfach kann keine E-Mails aus anderen Apps senden. Bitte verwenden Sie ein geschäftliches Postfach.
+This mailbox is already connected.,Dieses Postfach ist bereits verbunden.
+This mailbox was signed out. Reconnect it to sign in again.,"Dieses Postfach wurde abgemeldet. Verbinden Sie es erneut, um sich wieder anzumelden."
+This makes a Stock Entry that puts {0} made in this Job Card into {1}.,"Dadurch wird eine Lagerbuchung erstellt, die das in dieser Jobkarte gefertigte {0} in {1} einlagert."
+This Month,Dieser Monat
+This Quarter,Dieses Quartal
+This revision has the same parts as {0}.,Diese Revision hat dieselben Teile wie {0}.
+This schedule was restored when Asset Shift Allocation {0} was cancelled.,"Dieser Plan wurde wiederhergestellt, als die Sachanlagen-Schicht-Zuweisung {0} storniert wurde."
+This Week,Diese Woche
+Tick Last Step on the step that makes {0}. Its Output Item must be {0}.,"Aktivieren Sie „Letzter Schritt“ bei dem Schritt, der {0} herstellt. Sein Ausgabeartikel muss {0} sein."
+Tick this on the step that makes this BOM's own item. The other steps make in-between items.,"Aktivieren Sie dies bei dem Schritt, der den eigenen Artikel dieser Stückliste herstellt. Die anderen Schritte stellen Zwischenartikel her."
+"Time a workstation stood idle, and why.","Zeit, in der ein Arbeitsplatz stillstand, und der Grund dafür."
+"Time spent on tasks and activities, to bill or cost.","Für Aufgaben und Aktivitäten aufgewendete Zeit, zur Abrechnung oder Kostenerfassung."
+To Date cannot be a future date,Bis-Datum darf nicht in der Zukunft liegen
+To Move,Zu verschieben
+To Time must be after From Time,Bis-Zeit muss nach Von-Zeit liegen
+Tomorrow,Morgen
+Total Consumed Material Cost,Gesamtkosten des verbrauchten Materials
+Total Cost {0},Gesamtkosten {0}
+Total delivery schedule quantity cannot be greater than the item quantity,Die gesamte Menge des Lieferplans darf die Artikelmenge nicht überschreiten
+Total Depreciation Amount {0} must be equal to the depreciable value {1},Der gesamte Abschreibungsbetrag {0} muss dem abschreibbaren Wert {1} entsprechen
+Total Lost Quotations,Verlorene Angebote gesamt
+Total Lost Value,Verlorener Wert gesamt
+Total {0} Considered,{0} gesamt berücksichtigt
+Total {0} Value,{0}-Wert gesamt
+Transaction not allowed against closed Work Order {0},Transaktion für geschlossenen Arbeitsauftrag {0} nicht zulässig
+Transfer materials for Work Order {0} from its Job Cards.,Materialien für Arbeitsauftrag {0} aus seinen Jobkarten übertragen.
+"Turns stock items or services into an asset, or one asset into another.","Wandelt Lagerartikel oder Dienstleistungen in einen Vermögensgegenstand um, oder einen Vermögensgegenstand in einen anderen."
+Unable to find exchange rate from {0} to {1} on {2},Wechselkurs von {0} nach {1} am {2} nicht gefunden
+Unable to import a signed file,Eine signierte Datei kann nicht importiert werden
+Unable to read file {0},Die Datei {0} kann nicht gelesen werden
+Uncancelled Serial and Batch Bundle,Nicht storniertes Serien- und Chargenbündel
+Undo a payment's match against invoices.,Die Zuordnung einer Zahlung zu Rechnungen rückgängig machen.
+Unsubscribe from this campaign,Von dieser Kampagne abmelden
+Unsupported filter operator {0},Nicht unterstützter Filteroperator {0}
+Unsupported target document type,Nicht unterstützter Zielbelegtyp
+Unvalued Output,Unbewertete Ausgabe
+UOM {0} has no conversion factor in Item {1}.,Die ME {0} hat keinen Umrechnungsfaktor in Artikel {1}.
+Upload Item Image,Artikelbild hochladen
+Upload Photo,Foto hochladen
+Use the item as a raw material without its own BOM.,Den Artikel als Rohmaterial ohne eigene Stückliste verwenden.
+Used In,Verwendet in
+User {0} has no read or select permission on {1},Benutzer {0} hat keine Lese- oder Auswahlberechtigung für {1}
+User {0} is disabled. Only a user who can edit Users can enable it.,"Benutzer {0} ist deaktiviert. Nur ein Benutzer, der Benutzer bearbeiten darf, kann ihn aktivieren."
+User {0} is not in Applicable for Users of POS Profile {1},Benutzer {0} ist nicht unter „Anwendbar für Benutzer“ des Verkaufsstellen-Profils {1} eingetragen
+Uses existing BOM {0},Verwendet die vorhandene Stückliste {0}
+Value Adjustment Amount,Betrag der Wertanpassung
+Value of Assets Consumed in Capitalization,Wert der bei der Aktivierung verbrauchten Vermögensgegenstände
+Value of goods must be greater than 0,Der Warenwert muss größer als 0 sein
+Value {0} for Attribute {1} must be a number for Item {2},Der Wert {0} für das Attribut {1} muss bei Artikel {2} eine Zahl sein
+View Details,Details anzeigen
+Voucher Already Reconciled,Beleg bereits abgeglichen
+Warehouse Type {0} is required by the system and cannot be deleted,Der Lagertyp {0} wird vom System benötigt und kann nicht gelöscht werden
+Warehouse {0} can not be converted to group as it is an Item's default warehouse,"Das Lager {0} kann nicht in eine Gruppe umgewandelt werden, da es das Standardlager eines Artikels ist"
+Warehouse {0} can not be converted to group as quantity exists for Item {1},"Das Lager {0} kann nicht in eine Gruppe umgewandelt werden, da für Artikel {1} Bestand vorhanden ist"
+Warehouse {0} cannot be disabled as stock exists for Item {1},"Das Lager {0} kann nicht deaktiviert werden, da für Artikel {1} Bestand vorhanden ist"
+Warehouse {0} is a group warehouse,Das Lager {0} ist ein Gruppenlager
+Warehouse {0} must be an enabled warehouse that is not a group.,"Das Lager {0} muss ein aktiviertes Lager sein, das keine Gruppe ist."
+"What a subscription bills for, and at what price.",Was ein Abonnement abrechnet und zu welchem Preis.
+What an employee costs and bills per hour for an activity.,Was ein Mitarbeiter pro Stunde für eine Aktivität kostet und abrechnet.
+What you did to fix or prevent a quality problem.,"Was Sie getan haben, um ein Qualitätsproblem zu beheben oder zu verhindern."
+"When an asset depreciates, and by how much.",Wann ein Vermögensgegenstand abgeschrieben wird und um wie viel.
+"When part of an invoice is due, like 50% in 30 days.","Wann ein Teil einer Rechnung fällig ist, z. B. 50 % in 30 Tagen."
+Where each detail goes when you print on your bank's cheque.,Wo jede Angabe beim Drucken auf den Scheck Ihrer Bank platziert wird.
+Which warehouse received items go to.,In welches Lager eingegangene Artikel gelangen.
+"While making a Purchase Receipt or Purchase Invoice from a Purchase Order, use the exchange rate on its posting date rather than inheriting it from the Purchase Order.","Beim Erstellen eines Eingangsbelegs oder einer Eingangsrechnung aus einer Bestellung den Wechselkurs zum Buchungsdatum verwenden, statt ihn aus der Bestellung zu übernehmen."
+"Who answers incoming calls, and when.",Wer eingehende Anrufe annimmt und wann.
+Work Order status cannot be set to {0},Der Status des Arbeitsauftrags kann nicht auf {0} gesetzt werden
+Work Order {0} is already Closed,Der Arbeitsauftrag {0} ist bereits geschlossen
+Work Orders are made larger to cover their BOM's % Process Loss,"Arbeitsaufträge werden vergrößert, um den Prozessverlust in % ihrer Stückliste abzudecken"
+Work Orders include this loss,Arbeitsaufträge berücksichtigen diesen Verlust
+Works out the shipping charge on a sale or purchase.,Berechnet die Versandkosten bei einem Verkauf oder Einkauf.
+Workstation Type {0} has no enabled Workstation,Der Arbeitsplatztyp {0} hat keinen aktivierten Arbeitsplatz
+Write Off Account must be a Profit and Loss account,Das Konto für Einzelwertberichtungen muss ein Gewinn- und Verlustkonto sein
+Year,Jahr
+Yesterday,Gestern
+You are not permitted to access Company {0},"Sie haben keine Berechtigung, auf das Unternehmen {0} zuzugreifen"
+You are not permitted to link or update User {0},"Sie haben keine Berechtigung, den Benutzer {0} zu verknüpfen oder zu aktualisieren"
+You are not permitted to repair the Stock Ledger Entries of {0} {1},"Sie haben keine Berechtigung, die Buchungen im Lagerbuch von {0} {1} zu reparieren"
+You are not permitted to view the timesheets of this project.,"Sie haben keine Berechtigung, die Zeiterfassungen dieses Projekts anzuzeigen."
+You are not permitted to view {0},"Sie haben keine Berechtigung, {0} anzuzeigen"
+You cannot read the design file {0}.,Sie können die Konstruktionsdatei {0} nicht lesen.
+You need to cancel Sales Invoice {0} to be able to cancel this document.,"Sie müssen die Ausgangsrechnung {0} stornieren, um diesen Beleg stornieren zu können."
+You signed in to a different mailbox. Sign in to this account's mailbox.,Sie haben sich bei einem anderen Postfach angemeldet. Melden Sie sich beim Postfach dieses Kontos an.
+Your admin must approve Frappe first.,Ihr Administrator muss Frappe zuerst genehmigen.
+"Your calling preferences, like when you take calls.","Ihre Anrufeinstellungen, z. B. wann Sie Anrufe annehmen."
+Your Google Workspace admin has blocked Frappe. Ask them to allow it under Security > API controls in the Google Admin console.,"Ihr Google-Workspace-Administrator hat Frappe blockiert. Bitten Sie ihn, es in der Google Admin-Konsole unter Sicherheit > API-Steuerung zuzulassen."
+Your Microsoft 365 admin must approve Frappe first.,Ihr Microsoft-365-Administrator muss Frappe zuerst genehmigen.
+Your password was changed by {0},Ihr Passwort wurde von {0} geändert
+{0} and {1} are mapped to item {2}. Only one BOM can be made for an item.,{0} und {1} sind Artikel {2} zugeordnet. Für einen Artikel kann nur eine Stückliste erstellt werden.
+{0} and {1} are required,{0} und {1} sind erforderlich
+{0} are mandatory in POS Settings,{0} sind in den POS-Einstellungen Pflichtfelder
+{0} BOMs will be created,{0} Stücklisten werden erstellt
+{0} cannot be a group,{0} kann keine Gruppe sein
+{0} cannot be changed for Serial No.,{0} kann für eine Seriennummer nicht geändert werden.
+{0} cannot be changed to Sales Invoice while POS Invoices {1} are not consolidated. Consolidate them with a POS Closing Entry or a POS Invoice Merge Log first.,"{0} kann nicht in eine Ausgangsrechnung geändert werden, solange die POS-Rechnungen {1} nicht konsolidiert sind. Konsolidieren Sie sie zuerst mit einer POS-Abschlussbuchung oder einem POS-Rechnungszusammenführungsprotokoll."
+{0} cannot be renamed with the Rename Tool,{0} kann nicht mit dem Werkzeug zum Umbenennen umbenannt werden
+{0} draft {1} documents already exist for this Pick List: {2}. Do you still want to create a new one?,Für diese Pickliste existieren bereits {0} {1}-Entwürfe: {2}. Möchten Sie trotzdem einen neuen erstellen?
+{0} Error: {1},{0} Fehler: {1},Prepared Report Notification
+{0} has no field {1},{0} hat kein Feld {1}
+"{0} has no raw materials. Click Add Raw Materials for this step in the Steps section, or select a BOM for its output item {1}.",{0} hat keine Rohmaterialien. Klicken Sie im Abschnitt „Schritte“ bei diesem Schritt auf „Rohmaterialien hinzufügen“ oder wählen Sie eine Stückliste für seinen Ausgabeartikel {1}.
+{0} is mandatory for a {1} Blanket Order,{0} ist für einen Blankoauftrag vom Typ {1} obligatorisch
+{0} is mandatory in POS Settings,{0} ist in den POS-Einstellungen obligatorisch
+{0} is not a valid Party Type,{0} ist kein gültiger Partei-Typ
+{0} is not a valid time zone,{0} ist keine gültige Zeitzone
+{0} is not supported when {1} is {2},"{0} wird nicht unterstützt, wenn {1} {2} ist"
+{0} is rendered from an HTML file and cannot be edited in the Print Format Editor.,{0} wird aus einer HTML-Datei gerendert und kann nicht im Druckformat-Editor bearbeitet werden.
+{0} is required for the {1} party,{0} ist für die Partei {1} erforderlich
+{0} is required to enable YouTube tracking,"{0} ist erforderlich, um das YouTube-Tracking zu aktivieren"
+{0} is used in a later step,{0} wird in einem späteren Schritt verwendet
+{0} items added,{0} Artikel hinzugefügt
+{0} items created,{0} Artikel erstellt
+{0} minutes,{0} Minuten
+{0} must be a group warehouse of company {1}.,{0} muss ein Gruppenlager des Unternehmens {1} sein.
+{0} must be greater than 0,{0} muss größer als 0 sein
+{0} must be the same as in Purchase Order {1}.,{0} muss mit dem Wert in der Bestellung {1} übereinstimmen.
+{0} of raw material {1} was not consumed by {2} or was already returned. Use Reset Raw Materials Table to pick the raw materials again.,"{0} des Rohmaterials {1} wurde nicht von {2} verbraucht oder bereits zurückgegeben. Verwenden Sie „Rohmaterialtabelle zurücksetzen“, um die Rohmaterialien erneut zu kommissionieren."
+{0} operations,{0} Arbeitsgänge
+{0} parts,{0} Teile
+{0} parts mapped,{0} Teile zugeordnet
+{0} parts not mapped,{0} Teile nicht zugeordnet
+{0} parts not used,{0} Teile nicht verwendet
+{0} raw materials,{0} Rohmaterialien
+{0} removed from BOM,{0} aus der Stückliste entfernt
+{0} sign-in is only available on Frappe Cloud,Die Anmeldung mit {0} ist nur in Frappe Cloud verfügbar
+{0} sign-in isn't available right now,Die Anmeldung mit {0} ist derzeit nicht verfügbar
+{0} sign-in isn't available right now. You can still set it up manually.,Die Anmeldung mit {0} ist derzeit nicht verfügbar. Sie können es weiterhin manuell einrichten.
+{0} step {1} ({2}),{0} Schritt {1} ({2})
+{0} was moved after the task it depends on. {1},"{0} wurde hinter die Aufgabe verschoben, von der sie abhängt. {1}"
+{0} wasn't connected with one-click sign-in,{0} wurde nicht per Ein-Klick-Anmeldung verbunden
+{0} {1} has unsubscribed from emails,{0} {1} hat sich von E-Mails abgemeldet
+{0} {1} is already in Payment Order {2},{0} {1} ist bereits im Zahlungsauftrag {2} enthalten
+"{0} {1} is for {2} {3}, not {4}","{0} {1} gilt für {2} {3}, nicht für {4}"
+{0} {1} is not a valid date and time,{0} {1} ist kein gültiges Datum mit Uhrzeit
+{0} {1} is not linked to Customer {2},{0} {1} ist nicht mit Kunde {2} verknüpft
+{0} {1} is not linked to Supplier {2},{0} {1} ist nicht mit Lieferant {2} verknüpft
+{0} {1} is not linked to {2} {3},{0} {1} ist nicht mit {2} {3} verknüpft
+{0} {1} is not the {0} of {2} {3},{0} {1} ist nicht {0} von {2} {3}
+{0} {1} must be submitted to reserve stock against it.,"{0} {1} muss gebucht sein, um Bestand dafür zu reservieren."
+{0}: add raw materials or operations.,{0}: Fügen Sie Rohmaterialien oder Arbeitsgänge hinzu.
+{0}: an operation can use only the output of an earlier operation.,{0}: Ein Arbeitsgang kann nur das Ergebnis eines früheren Arbeitsgangs verwenden.
+{0}: an operation output can be used only when each operation produces an item.,"{0}: Das Ergebnis eines Arbeitsgangs kann nur verwendet werden, wenn jeder Arbeitsgang einen Artikel erzeugt."
+{0}: choose an earlier operation of this BOM.,{0}: Wählen Sie einen früheren Arbeitsgang dieser Stückliste.
+"{0}: choose one design part, one item or one earlier operation output.","{0}: Wählen Sie ein Konstruktionsteil, einen Artikel oder das Ergebnis eines früheren Arbeitsgangs."
+{0}: choose the item this step makes.,"{0}: Wählen Sie den Artikel, den dieser Schritt herstellt."
+"{0}: choose the Output Item, that is the item this step makes.","{0}: Wählen Sie den Ausgabeartikel, also den Artikel, den dieser Schritt herstellt."
+{0}: Clearance date cannot be before cheque date.,{0}: Das Abrechnungsdatum darf nicht vor dem Scheckdatum liegen.
+{0}: Clearance date cannot be before posting date.,{0}: Das Abrechnungsdatum darf nicht vor dem Buchungsdatum liegen.
+{0}: design part node {1} does not exist.,{0}: Der Konstruktionsteil-Knoten {1} existiert nicht.
+{0}: map an item before creating its BOM.,"{0}: Ordnen Sie einen Artikel zu, bevor Sie dessen Stückliste erstellen."
+{0}: map an item for every raw material.,{0}: Ordnen Sie jedem Rohmaterial einen Artikel zu.
+{0}: Only submitted vouchers can be cleared.,{0}: Nur gebuchte Belege können abgerechnet werden.
+{0}: placement {1} of {2},{0}: Platzierung {1} von {2}
+{0}: set the operation time.,{0}: Legen Sie die Arbeitsgangdauer fest.
+{0}: set the Workstation Type.,{0}: Legen Sie den Arbeitsplatztyp fest.
+{0}: the operation is not part of this BOM.,{0}: Der Arbeitsgang gehört nicht zu dieser Stückliste.
+"{0}: this is the Last Step, so its Output Item must be {1}.","{0}: Dies ist der letzte Schritt, daher muss sein Ausgabeartikel {1} sein."
+{0}: Unreconcile the voucher from its Bank Transaction before changing the clearance date.,"{0}: Heben Sie die Zuordnung des Belegs zu seiner Banktransaktion auf, bevor Sie das Abrechnungsdatum ändern."
+{0}: {1} moved out of {2},{0}: {1} aus {2} verschoben
