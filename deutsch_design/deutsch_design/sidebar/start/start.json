@@ -7,7 +7,7 @@
  "standard": 1,
  "header_icon": "house",
  "creation": "2026-11-13 20:00:00.000000",
- "modified": "2026-11-13 20:30:00.000000",
+ "modified": "2026-11-15 12:00:00.000000",
  "modified_by": "Administrator",
  "owner": "Administrator",
  "docstatus": 0,
@@ -483,7 +483,7 @@
   },
   {
    "type": "Link",
-   "label": "Design",
+   "label": "Aussehen",
    "link_type": "DocType",
    "link_to": "Design Einstellungen",
    "child": 1,

@@ -6,7 +6,8 @@ $(document).on("startup", () => {
 	const css = document.createElement("style");
 	css.textContent = `
 		:root { --brand-color: ${f}; }
-		.es-button[data-variant="solid"]:not([data-theme]):not(.btn-danger) {
+		.es-button[data-variant="solid"]:not([data-theme]):not(.btn-danger),
+		.es-button.btn-primary {
 			--bt-solid-bg: ${f};
 			--bt-solid-bg-hover: color-mix(in srgb, ${f} 85%, black);
 			--bt-solid-bg-active: color-mix(in srgb, ${f} 75%, black);
