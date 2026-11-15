@@ -8,7 +8,7 @@ app_license = "MIT"
 # Übersetzungen der Seite (Doctype „Übersetzung“) haben immer Vorrang.
 
 # Startseite: Sprung zum Standard-Arbeitsbereich des Benutzers (siehe public/js/startseite.js).
-app_include_js = ["/assets/deutsch_design/js/startseite.js", "/assets/deutsch_design/js/farben.js"]
+app_include_js = "deutsch_design.bundle.js"
 
 # Farben: Firmenfarbe bzw. Farbe je Benutzer (Doctype „Design Einstellungen“).
 extend_bootinfo = "deutsch_design.farben.boot"
